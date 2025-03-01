@@ -3,7 +3,7 @@ import { siteConfig } from './site.config'
 
 export default defineNuxtConfig({
   // 启用 SSR，这对静态生成很重要
-  ssr: false,
+  ssr: true,
 
   // 配置 Nitro 引擎为静态生成
   nitro: {
