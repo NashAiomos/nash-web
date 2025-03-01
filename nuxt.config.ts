@@ -95,14 +95,6 @@ export default defineNuxtConfig({
     }
   },
 
-  // 确保资源路径正确
-  experimental: {
-    // 这将帮助处理资源路径
-    payloadExtraction: true,
-    // 改进静态资产处理
-    inlineSSRStyles: true,
-  },
-
   stylelint: {
     /* module options */
     lintOnStart: false,
