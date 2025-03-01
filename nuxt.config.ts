@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   ],
 
   app: {
-    baseURL: './', // 确保这个路径正确
+    baseURL: '/nash-web/', // 确保这个路径正确
     buildAssetsDir: '/assets/', // 设置资源目录
     rootId: 'nuxt-root',
     head: {
