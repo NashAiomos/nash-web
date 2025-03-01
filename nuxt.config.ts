@@ -46,12 +46,13 @@ export default defineNuxtConfig({
         class: 'font-sans',
       },
       script: [ // 放大查看图片
-        { src: 'bigimg.js' },
-        { src: 'custom.js' },
+        { src: '/nash-web/bigimg.js' },
+        { src: '/nash-web/custom.js' },
       ],
       // 添加链接标签以确保CSS正确加载
       link: [
-        { rel: 'stylesheet', href: 'css/main.css' } // 如果有额外的CSS文件
+        { rel: 'stylesheet', href: 'css/main.css' }, // 如果有额外的CSS文件
+        { rel: 'icon', href: '/nash-web/favicon.ico' },
       ]
     },
   },
