@@ -17,6 +17,8 @@ jobs:
           version: 8
       - run: pnpm install
       - run: pnpm generate
+      - name: Create .nojekyll file
+        run: touch .output/public/.nojekyll
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
