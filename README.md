@@ -2,7 +2,7 @@
   <h1>Nuxt 3 Blog</h1>
 </div>
 
-## 💡Features
+## Features
 
 - Nuxt3 technology stack, ssr rendering, more friendly to seo
 - Adapt to mobile end layout
@@ -13,7 +13,7 @@
 - Integrate website configuration to reduce the mental burden of modification
 - Comment function based on [Giscus](https://giscus.app/zh-CN)
 
-## 🔎Setup
+## Setup
 Make sure to install the dependencies:
 ```
 pnpm install
@@ -24,7 +24,7 @@ open dev serve
 pnpm dev
 ```
 
-## 📖Usage
+## Usage
 
 You should modify the following files
 
