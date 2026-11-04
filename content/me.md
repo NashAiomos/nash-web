@@ -3,20 +3,13 @@
 Hi! Lovely guys ~ Nice to meet you. I am introverted, but I also enjoy good friends. 
 Geek writer, software engineer, cryptocurrency enthusiast.
 
-I enjoy programming, reading, hiking, running, climbing, and playing video games.
+I enjoy programming, reading, hiking, running, climbing, and playing video games. My reading interests range from science fiction and mystery novels to economics, history, business, psychology, and philosophy. When I’ve spent too much time indoors, I like to go for a walk or plan a short trip. Some of my favorite games are Grand Theft Auto V, Don’t Starve, and Sid Meier’s Civilization VI.
 
-I love blockchain, mainly using Rust and JavaScript to develop smart contracts.
-I'm interested in books on science fiction, economics, history, suspense novel, business, and psychology.
-Sometimes after being at home for a long time, I just go out and walk around. Or plan a short trip.
-I love playing Grand Theft Auto V, Don't Starve, Sid Meier's Civilization VI. But now I am tired of playing, and I look forward to the release of GTA6 soon.
+I’ve been exploring cryptocurrency and Web3 since 2020. I enjoy building web applications and working with blockchain technology, mainly using Rust, TypeScript, and JavaScript. I also independently authored Constellation Book, an illustrated guide to Internet Computer (ICP) architecture and dApp development, available in Chinese and English.
 
-<strong> Learning: </strong>🚀
+I started using AI tools in November 2022, and Claude and ChatGPT are now part of my everyday toolkit. I’m interested in AI agents, product experiences, and finding new ways to turn ideas into useful products.
 
-<ul>
-<li>🧬 Product Design, IC, ETH, Architecture, Blockchain, Smart Contract, Economics, Philosophy</li>
-<li>🛠️ Rust, TpyeScript, JavaScript, Motoko, C</li>
-<li>🎆 Svelte, React.js</li>
-</ul>
+I’m always learning and exploring topics like product design, game, software architecture, Internet Computer, Ethereum, and smart contracts.
 
 <strong>Contact me: </strong>🚩
 
