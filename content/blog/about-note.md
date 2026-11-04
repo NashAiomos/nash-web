@@ -9,7 +9,7 @@ tags:
 
 当你闭上眼睛，回想自己掌握的知识时，你会发现自己掌握的东西少得可怜：
 
-<img src="https://s1.imagehub.cc/images/2022/12/13/36aeabe8e7563462ac2e2d2c70dbec54.png" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/36aeabe8e7563462ac2e2d2c70dbec54.png" style="zoom:50%;" />
 
 我总是怕脑子把学过的东西忘了，相信 “ 好记性不如烂笔头 ” ，把笔记写的很详细（写笔记是相当于要向一个刚入门的小白讲清楚所有知识，也就是做通俗易懂、面面俱到的笔记，以便很多年后我忘掉这些知识以后可以通过笔记快速复习回忆），结果深陷记笔记泥潭进度严重滞后。
 
@@ -41,7 +41,7 @@ tags:
 
 技术永远在更新，你的精力有限，不可能把所有东西都做一遍笔记，然后一直维护这些笔记确保它们不过时。
 
-<img src="https://s1.imagehub.cc/images/2022/12/13/2048dc5f6e3172152d62a7e63530e2a5.png" style="zoom:30%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/2048dc5f6e3172152d62a7e63530e2a5.png" style="zoom:30%;" />
 
 <br>
 
@@ -109,21 +109,21 @@ tags:
 
 每个人都有适合自己的学习方法。
 
-<img src="https://s1.imagehub.cc/images/2022/12/13/f568df9647bb1aa1a5d034aeeb836306.png" style="zoom:150%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/f568df9647bb1aa1a5d034aeeb836306.png" style="zoom:150%;" />
 
 <br>
 
 大佬们的想法：
 
-<img src="https://s1.imagehub.cc/images/2022/12/13/0548402873a966b9ee39b3aa68279daf.png" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/0548402873a966b9ee39b3aa68279daf.png" style="zoom:25%;" />
 
 
 
-<img src="https://s1.imagehub.cc/images/2022/12/13/a3668673b8d7973048ce59f0ef14ef28.png" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/a3668673b8d7973048ce59f0ef14ef28.png" style="zoom:25%;" />
 
 不要限制自己。
 
-<img src="https://s1.imagehub.cc/images/2022/12/13/15f945a582794e4f1e5bbc92295e4839.png" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/15f945a582794e4f1e5bbc92295e4839.png" style="zoom:25%;" />
 
 
 

@@ -37,7 +37,7 @@ After comparing HBase, Cassandra, and other databases, Dominic chose the early C
 
 Dominic wanted to connect millions of users worldwide through a distributed system, which was a significant innovation at the time. After several test runs, the game was officially launched on New Year's Day in 2011, and in just two weeks, it gained 30,000 users, skyrocketing to 300,000 users in just a few months.
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/d2419844809577766fb86cff3e8ae005.jpeg" style="zoom:35%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/d2419844809577766fb86cff3e8ae005.jpeg" style="zoom:35%;" />
 
 The team achieved remarkable success in scaling up their business despite having a meager budget. However, they had overlooked one crucial factor - the development of a large-scale online game required an army of specialists, including Flash developers, database administrators, network engineers, payment system experts, operations and maintenance personnel, complexity analysts, cartoon artists, sound engineers, music composers, animation experts, advertising gurus, and more.
 
@@ -63,7 +63,7 @@ Was it because they weren't working hard enough?
 
 Because Cassandra was also in early development, at the end of 2011, due to bugs in Cassandra beta code, Fight My Monster's user data was almost lost. It took several days and nights of work from Cassandra senior engineers and Dominic's team to save the data, ultimately resolving this horrific incident.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/e2727ae940125d7ce368730cda151745.png" alt="image-20230124210608095" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/e2727ae940125d7ce368730cda151745.png" alt="image-20230124210608095" style="zoom:33%;" />
 
 <br>
 
@@ -77,7 +77,7 @@ The team relied heavily on him, and his workload became overwhelmingly heavy - a
 
 Dominic's photos.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d5fa82e6a76e2272bcdad16a8cf7692c.jpeg" alt="Image" style="zoom:32%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d5fa82e6a76e2272bcdad16a8cf7692c.jpeg" alt="Image" style="zoom:32%;" />
 
 <br>
 
@@ -101,7 +101,7 @@ From a financial return perspective, Fight My Monster was a failure, with the us
 
 However, this experience was very valuable, and the most precious part was finding a group of capable colleagues who were also obsessed with the distributed system that Dominic loved. Dominic admired Fight My Monster's designer Jon Ball, who was always able to create a bunch of beautiful models using the team's design system, and later set the record for the highest ad viewing rate. There was also Aaron Morton, the Cassandra engineer who said "We work together, believe each other", who worked with Dominic to build the "engine" behind the game - a distributed database. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/c509771324246de22e736b76c24b2343.png" alt="image-20230124164720298" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/c509771324246de22e736b76c24b2343.png" alt="image-20230124164720298" style="zoom:37%;" />
 
 In hindsight, Dominic's Flash game was no longer popular as people were gradually shifting towards mobile games and tablets. In 2010, Steve Jobs announced that Apple would no longer support Flash on its devices due to its impact on device performance. Additionally, due to frequent security vulnerabilities, BBC published an article titled "How much longer can Flash survive?" Shortly after, Adobe announced that it was abandoning the Flash project and switching to Animate for professional animation.
 
@@ -117,11 +117,11 @@ Rewinding back to 1998, Dominic was developing an online storage system for a Lo
 
 Little did Dominic know that this article from 1998 would ignite the spark for Bitcoin and connect the timeline of his cryptography career for the next decade.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/9d3e99b7d9b265f272df6f184b1d467f.png" alt="http://www.weidai.com" style="zoom: 50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/9d3e99b7d9b265f272df6f184b1d467f.png" alt="http://www.weidai.com" style="zoom: 50%;" />
 
 After leaving Fight My Monster in 2013, Dominic became obsessed with Bitcoin, a long-dormant interest that had been sparked by the "b-money" article he had stumbled upon back in 1998. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/0c0ef2986203947e6d9d9bd7fb29bba4.png" alt="image-20230124132844405" style="zoom:67%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/0c0ef2986203947e6d9d9bd7fb29bba4.png" alt="image-20230124132844405" style="zoom:67%;" />
 
 Wei Dai wrote in [b-money](http://www.weidai.com/bmoney.txt): 
 
@@ -135,7 +135,7 @@ Wei Dai described in detail how to create currency, how to send it, how to preve
 
 We cannot determine the relationship between Wei Dai's b-money and Bitcoin or whether he was inspired by "The Sovereign Individual" to design a scheme. However, Wei Dai's website shows that it was last updated on January 10, 2021. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/cc24110e86f36b5623b94b5bff3b1f9f.png" alt="image-20230124140739990" style="zoom:80%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/cc24110e86f36b5623b94b5bff3b1f9f.png" alt="image-20230124140739990" style="zoom:80%;" />
 
 <br>
 
@@ -145,7 +145,7 @@ Dominic said, "I love algorithms and distributed computing, and I won many award
 
 Here is Dominic's "Bitcoin ATM kiss" in 2014.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/83403aa2179a2e9ded1d8f5bc9dc71e2.png" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/83403aa2179a2e9ded1d8f5bc9dc71e2.png" style="zoom:33%;" />
 
 <br>
 
@@ -155,7 +155,7 @@ On February 7th, Mt. Gox, the world's largest Bitcoin exchange, announced its ba
 
 Bitcoin crashed to 666 USD. (It's currently priced at 23,000 USD, down from its peak of 69,000 USD.)
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/77ae5916be556e50b88f07b00bf1343f.png" alt="image-20230123222354219" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/77ae5916be556e50b88f07b00bf1343f.png" alt="image-20230123222354219" style="zoom:50%;" />
 
 Dominic immersed himself in the research of traditional Byzantine fault tolerance and combined it with his previous experience. He came up with a decentralized network that can scale horizontally like Cassandra - allowing more and more servers to join and maintain high performance. Within a few days, Dominic published a paper describing a scalable cryptocurrency called Pebble. The paper quietly circulated within a small circle of cryptography enthusiasts, and it was the first system to describe a decentralized sharding approach. In this system, each shard uses an asynchronous Byzantine fault tolerance algorithm to achieve consensus.
 
@@ -163,7 +163,7 @@ Dominic immersed himself in the research of traditional Byzantine fault toleranc
 
 While learning, Dominic didn't forget to trade Bitcoin. Investing in Bitcoin brought him some peace of mind, and now he could focus on designing consensus algorithms without having to work day and night or in a frenzy.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/60f45fe06eb9fa990443162691e7cab8.png" alt="image-20230123222606352" style="zoom:52%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/60f45fe06eb9fa990443162691e7cab8.png" alt="image-20230123222606352" style="zoom:52%;" />
 
 <br>
 
@@ -171,7 +171,7 @@ Dominic's research focuses on protocols and cryptography, which are like dry kin
 
 After returning to Mountain View, California from China, Dominic tweeted, "China Loves Blockchain :)". 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/12d2ad4630ef26d1c5988adf7a901d51.png" alt="image-20230123222921586" style="zoom:67%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/12d2ad4630ef26d1c5988adf7a901d51.png" alt="image-20230123222921586" style="zoom:67%;" />
 
 Like Ethereum, Dominic also received investment in China. The reason is simple. Silicon Valley invested in Bitcoin very early and gained huge returns, so they don't care much about "altcoins" (the secular view is that coins other than Bitcoin are "altcoins", which are basically coins that are slightly improved versions of Bitcoin).
 
@@ -191,13 +191,13 @@ It created an open ledger system: people from all over the world can join or lea
 
 In the traditional network architecture, user data is indiscriminately stuffed into servers. Users cannot truly control their own data, and whoever controls the server has the final say. If we can view this one-to-many relationship as "**points**" scattered around the world, the user's data flows into each point tirelessly.
 
-<img src="https://s1.imagehub.cc/images/2023/03/12/114ae224b59654899e49f3e6da932b50.png" alt="image-20230124222808798" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/03/12/114ae224b59654899e49f3e6da932b50.png" alt="image-20230124222808798" style="zoom:25%;" />
 
 So the Bitcoin network can be seen as a "**line**", it connects isolated points into a line, making the internet more fair and open. What Bitcoin does is to combine computers from all over the world to form a huge "**world ledger**". So what if you want to record something else? Just imitate Bitcoin and create a new one!
 
 Six years after the birth of Bitcoin, a "**surface**" that can deploy software on a decentralized network gradually emerged, called Ethereum. Ethereum is not a replica of Bitcoin's world ledger. Ethereum has created a shared and universal virtual "**world computer**", with Ethereum's virtual machine running on everyone's computer. Like the Bitcoin ledger, it is tamper-proof and cannot be modified. Everyone can write software and deploy it on the virtual machine, as long as they pay a bit of ether to the miners. (There are no miners anymore, but that's another article 😋)
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/38d3219e513911f18db5c8468841e030.png" alt="image-20230124190858096" style="zoom:27%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/38d3219e513911f18db5c8468841e030.png" alt="image-20230124190858096" style="zoom:27%;" />
 
 Deployed software on the blockchain becomes an automated vending machine, permanently stored within a distributed and decentralized network that fairly and justly evaluates each transaction to determine if conditions are met. With the blockchain's immutable storage capabilities, the phrase "code is law" is coined. Here, software is referred to by another name: "smart contracts". 
 
@@ -215,11 +215,11 @@ In the face of these challenges, Dominic made a difficult decision and chose the
 
 Now we can see from Dominic's presentation at devcon one in 2015 that he described the IC as Ethereum 3.0. In fact, it wouldn't be too much to call it Blockchain 3.0. If Bitcoin and Ethereum are called "Blockchain 1.0" and "Blockchain 2.0", he wanted to create a "**solid**", a true world computer, even naming the project the Internet Computer (IC for short). Based on the "face" to support large-scale applications, it can horizontally expand and achieve unlimited scalability as a "**world computer**". 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d566e01d9397ce368f777127001a237c.png" alt="图片" style="zoom:57%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d566e01d9397ce368f777127001a237c.png" alt="图片" style="zoom:57%;" />
 
 Oops, wrong picture. The one below is IC.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d600d44cc130bd67f9daad687a0db40c.png" alt="img" style="zoom:80%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d600d44cc130bd67f9daad687a0db40c.png" alt="img" style="zoom:80%;" />
 
 <br>
 
@@ -227,13 +227,13 @@ The opportunity finally arrived in November 2015, in London.
 
 Dominic presented the consensus algorithm he had been studying at devcon one.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/93504674b2894befb3c529b248726f50.png" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/93504674b2894befb3c529b248726f50.png" style="zoom:50%;" />
 
 During the conversation, Dominic discovered that even the staunchest Bitcoin supporters were very interested in the concept of Ethereum. This reinforced his belief in the potential of Trusted Computing.
 
 Dominic had an even grander vision than Ethereum. He wanted to create a public network of servers that would provide a "decentralized cloud" - a trusted computing platform. Software would be deployed and run on this decentralized cloud.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/73d313475c9ef0586de3a71b9b05f7c5.png" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/73d313475c9ef0586de3a71b9b05f7c5.png" style="zoom:50%;" />
 
 Dominic is working on reshaping a completely decentralized infrastructure, which can also be understood as the next generation of internet infrastructure or as a decentralized trusted computing platform combined with blockchain😉.
 
@@ -249,7 +249,7 @@ Trusted computing: based on cryptographic computation and protection, combined w
 
 Blockchain has something called a consensus algorithm, which is responsible for coordinating the nodes in the network (a node is a group of servers, which can be understood as a high-performance computer). The consensus algorithm can ensure that everyone's information in the network is in agreement, because this is a network that anyone can join or leave at any time, and it is not known which node might intentionally disrupt it (you can refer to my future blog post about the Byzantine Generals problem). With the consensus algorithm, even if one-third of the nodes in the network are malicious, the other nodes can still reach a consensus normally (the resistance of different consensus algorithms varies).
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/66123e0ee39269d5c51bd0bcb69bf024.png" alt="image-20230124221621784" style="zoom:30%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/66123e0ee39269d5c51bd0bcb69bf024.png" alt="image-20230124221621784" style="zoom:30%;" />
 
 Decentralized platforms not only involve token transfers between parties, but also rely on consensus algorithms to establish a barrier and keep malicious actors at bay. However, efficiency and decentralization are difficult to achieve simultaneously, and it's challenging to create a fully decentralized system that can both protect nodes and allow for coordination and data synchronization among them. Dominic's goal is to merge trusted computing and blockchain to create a limitless, open, high-performance, strongly consistent, scalable, and data-intensive blockchain network composed of servers from all over the world, without the need for firewalls.
 
@@ -269,25 +269,25 @@ IC re-designed the blockchain architecture and developed more efficient consensu
 
 Dominic is busy researching with the technical team on his left hand, writing strategic plans for the team on his right hand, and going to various blockchain forums to introduce the project with his mouth. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/fb974c47245d325b1defc2ac8865e7ec.jpeg" alt="DGRaEBfUIAAvYvY" style="zoom:15%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/fb974c47245d325b1defc2ac8865e7ec.jpeg" alt="DGRaEBfUIAAvYvY" style="zoom:15%;" />
 
 Over the years, Dominic has shared many critical cryptographic technologies with other blockchain teams, such as the application of VRF, which has been adopted by many well-known projects (such as Chainlink, etc.).
 
 In February 2017, Dominic participated in a roundtable forum with Vitalik Buterin and many other experts. From left to right: Vitalik Buterin (left one), Dominic (left two), Timo Hanke (right one).
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/99e283e435820e746ca62048059b4909.png" alt="FfGddz-XoAA9SzO" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/99e283e435820e746ca62048059b4909.png" alt="FfGddz-XoAA9SzO" style="zoom:33%;" />
 
 <br>
 
 Ben Lynn (second from left in the red T-shirt) is demonstrating a mind-blowing technology called Threshold Relay, which can significantly improve the performance of blockchain and quickly generate blocks. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/63cf9b6bfe37c841fae4da90b0004c1a.jpeg" alt="图片" style="zoom: 27%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/63cf9b6bfe37c841fae4da90b0004c1a.jpeg" alt="图片" style="zoom: 27%;" />
 
 By the way, engineer Timo Hanke (third from left in the middle) was a mathematics and cryptography professor at RWTH Aachen University in Germany before he created AsicBoost in 2013, which increased the efficiency of Bitcoin mining by 20-30% and is now a standard for large-scale mining operations.
 
 Ben Lynn is one of the creators of the BLS signature algorithm, and the "L" in BLS stands for the "L" in his name. After graduating from Stanford with a Ph.D., he worked at Google for 10 years before joining Dfinity in May 2017. If you haven't heard of the BLS algorithm, you must have read Ben Lynn's "Git Magic," which was all the rage on the internet a few years ago.
 
-<img src="https://s1.imagehub.cc/images/2023/03/12/fed23c8e27a52bd194abd072f602c2d3.png" style="zoom:57%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/03/12/fed23c8e27a52bd194abd072f602c2d3.png" style="zoom:57%;" />
 
 <br>
 
@@ -373,7 +373,7 @@ So IC became a "data center chain," a decentralized network composed of data cen
 
 May 10th. The IC mainnet was launched. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/df5b4b83d7b278dd3fdb923135947a16.jpeg" alt="Image" style="zoom:30%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/df5b4b83d7b278dd3fdb923135947a16.jpeg" alt="Image" style="zoom:30%;" />
 
 The chart above shows a comparison of performance, storage data costs, and energy consumption against other blockchains.
 
@@ -381,7 +381,7 @@ The chart above shows a comparison of performance, storage data costs, and energ
 
 When the IC mainnet went live, there were already over 4,000 active developers. The chart below shows the growth of developers compared to other blockchains. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/fabf7f6e50771c50912dc419e9284f16.jpeg" alt="图片" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/fabf7f6e50771c50912dc419e9284f16.jpeg" alt="图片" style="zoom:37%;" />
 
 <br>
 
@@ -401,7 +401,7 @@ Like Bitcoin, Ethereum has also adopted the paradigm of "code is law". This mean
 
 The Zurich office demonstrates the integration of Bitcoin on the whiteboard. Bitcoin transactions can be processed directly through canisters without the need for private keys. The integration of Ethereum is also coming soon. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/6d6fa714d370a66d05a6c0d443c585b2.jpeg" style="zoom:77%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/6d6fa714d370a66d05a6c0d443c585b2.jpeg" style="zoom:77%;" />
 
 At the protocol level, IC is directly integrated with Bitcoin. Canisters on IC can receive, hold, and send Bitcoin directly on the Bitcoin network. This means canisters can hold Bitcoin like regular users. Canisters can securely hold and use ECDSA keys through the threshold ECDSA chain key signature protocol.
 
@@ -415,19 +415,19 @@ The IC architecture and consensus mechanism are innovative and unparalleled in t
 
 According to statistics from GitHub and Electric Capital (2023), IC has the most active developer community and is still growing rapidly.
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/616e010d7ec8b2eb236d023004f8ead4.jpeg" alt="图片" style="zoom:67%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/616e010d7ec8b2eb236d023004f8ead4.jpeg" alt="图片" style="zoom:67%;" />
 
 <br>
 
 The photo on the office wall when IC was about to reach 30 million blocks after three weeks of mainnet launch. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/f78783b11cb609cfb3545381525ee787.jpeg" alt="图片" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/f78783b11cb609cfb3545381525ee787.jpeg" alt="图片" style="zoom:50%;" />
 
 <br>
 
 In July 2021, many new Dfinity members interviewed and joined the team via video conferencing during the COVID-19 pandemic without meeting in person. On this day, a small group of people came to the office located in Zurich to meet face-to-face. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/3adc64294313d748a0fe347ee81007b3.jpeg" alt="图片" style="zoom:17%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/3adc64294313d748a0fe347ee81007b3.jpeg" alt="图片" style="zoom:17%;" />
 
 <br>
 
@@ -441,37 +441,37 @@ On the other hand, we hope to see large-scale redesign of enterprise IT systems 
 
 Image from Shanghai, October 2021. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/2cea7849c09de6aadd133bf5337ec7fa.jpeg" alt="Image" style="zoom:55%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/2cea7849c09de6aadd133bf5337ec7fa.jpeg" alt="Image" style="zoom:55%;" />
 
 <br>
 
 On July 14, 2022, at a street café in Zurich, Dominic and his team were waiting for the 1,000,000,000th block of IC to be mined, while checking the real-time statistics of IC data on the [dashboard](https://dashboard.internetcomputer.org/). 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/6de3ff8a4d75d9964afa8252433562c7.jpeg" alt="图片" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/6de3ff8a4d75d9964afa8252433562c7.jpeg" alt="图片" style="zoom:37%;" />
 
 <br>
 
 DFINITY's new office building is located in Switzerland. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/03c4efa5b588d05bc594c6c98b5ef081.png" style="zoom:35%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/03c4efa5b588d05bc594c6c98b5ef081.png" style="zoom:35%;" />
 
 <br>
 
 When leaving the office, Dominic took some photos of murals on the cafeteria wall that were created by talented IC NFT artists. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/55079229adecb6dd5c35d8ad1fc84cd9.jpeg" style="zoom:20%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/55079229adecb6dd5c35d8ad1fc84cd9.jpeg" style="zoom:20%;" />
 
 Dominic moved into his new house, and shared the good news on Twitter while enjoying a piece of cake. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/f9803e7660dbfa51bc918b50e92a3e91.jpeg" alt="图片" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/f9803e7660dbfa51bc918b50e92a3e91.jpeg" alt="图片" style="zoom:33%;" />
 
 After work, one must not neglect their musical pursuits. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/88fefffafff481e6a74b511e629f2fc5.png" alt="image-20230124235301028" style="zoom:70%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/88fefffafff481e6a74b511e629f2fc5.png" alt="image-20230124235301028" style="zoom:70%;" />
 
 <br>
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d906dc0876066d58bf33d4a2c619bc20.png" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d906dc0876066d58bf33d4a2c619bc20.png" style="zoom:37%;" />
 
 <br>
 
@@ -513,7 +513,7 @@ Then the sound came again, louder this time. It was a buzzing sound! That's it!
 
 Suddenly, time came to a standstill. Everything around me froze in place. Neurons expanded and burst, releasing pheromones that catalyzed other neurons. My head began to shake uncontrollably, then suddenly expanded. My eyes bulged like a mouse's, and my ears twisted into pretzels... The sound seemed to be accompanied by the sound of breaking glass, footsteps on the ground, and the sound of birds and dogs barking...
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/cfc9f9909024db41734c7a23eb881472.jpeg" alt="123" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/cfc9f9909024db41734c7a23eb881472.jpeg" alt="123" style="zoom:33%;" />
 
 A burst of white light coursed through my mind, quickly swelling into a vast, shimmering expanse of brilliance. All around me, an endless canvas of blue unfurled, adorned with intricate squares and lines of every hue. Then, a radiant spark flickered to life, blossoming into a majestic orb that engulfed all else in its path. As the light dissipated, the blue canvas gave way to an immaculate vista of pristine white.
 

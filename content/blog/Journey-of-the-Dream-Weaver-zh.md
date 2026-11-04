@@ -39,7 +39,7 @@ Fight My Monster ，一款大型多人在线游戏，也是儿童社交网络。
 
 多米尼克想用分布式系统把全球数百万用户联系起来，这在当时算不小的创新。经过几次试运行后，游戏在 2011 年新年正式推出，在短短两周内获得了 3 万名用户，并在几个月内暴涨到 30 万名用户。
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/d2419844809577766fb86cff3e8ae005.jpeg" style="zoom:35%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/d2419844809577766fb86cff3e8ae005.jpeg" style="zoom:35%;" />
 
 团队成功以微薄的预算将业务规模不断扩大。不过他低估了一点，这种大型在线游戏需要更多专业人员，例如 flash 网页、数据库、网络、支付系统、运维、复杂性分析、卡通形象、音效音乐、动画特效、广告投放 …… 
 
@@ -65,7 +65,7 @@ Fight My Monster ，一款大型多人在线游戏，也是儿童社交网络。
 
 由于 Cassandra 也处于早期开发中。2011 年底，因为 Cassandra beta 版代码里的 bug ，Fight my monster 的用户数据差点丢失。Cassandra 资深工程师和多米尼克团队经过好几天通宵达旦的工作才保存下来，最终化解了这毛骨悚然的事。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/e2727ae940125d7ce368730cda151745.png" alt="image-20230124210608095" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/e2727ae940125d7ce368730cda151745.png" alt="image-20230124210608095" style="zoom:33%;" />
 
 <br>
 
@@ -79,7 +79,7 @@ Fight My Monster ，一款大型多人在线游戏，也是儿童社交网络。
 
 多米尼克头像。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d5fa82e6a76e2272bcdad16a8cf7692c.jpeg" alt="Image" style="zoom:32%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d5fa82e6a76e2272bcdad16a8cf7692c.jpeg" alt="Image" style="zoom:32%;" />
 
 <br>
 
@@ -105,7 +105,7 @@ Fight My Monster ，一款大型多人在线游戏，也是儿童社交网络。
 
 不过这段经历非常宝贵，弥足珍贵的部分是找到一群给力的同事，沉迷于自己热爱的那个分布式系统。多米尼克非常钦佩 Fight My Monster 的设计师 Jon Ball，Jon 总能用团队的设计系统造出一大堆好看的模型，之后又顺利创造了广告收视率最高纪录。还有 Cassandra 的工程师 Aaron Morton  “ We work together，believe each other ” ，他和多米尼克一起打造了游戏背后的 “ 引擎 ” ——分布式数据库。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/c509771324246de22e736b76c24b2343.png" alt="image-20230124164720298" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/c509771324246de22e736b76c24b2343.png" alt="image-20230124164720298" style="zoom:37%;" />
 
 事后看来，多米尼克的 Flash 游戏当时已经风光不再。那时候人们在逐渐转向手机游戏、平板电脑这类移动端。2010 年，乔布斯宣布苹果手机不再使用 Flash ，原因是影响手机性能。因为 Flash 安全漏洞频发，BBC 发表一篇报道名叫《 Flash 还能活多久？》。BBC 话音刚落， Adobe 就宣布放弃 Flash 项目，改用 Animate 来制作专业动画。
 
@@ -121,11 +121,11 @@ Fight My Monster ，一款大型多人在线游戏，也是儿童社交网络。
 
 多米尼克没有想到来自 98 年遇到的那篇文章，点燃了比特币这颗火种，并在多年之后串联起了他往后十年加密生涯的时间线。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/9d3e99b7d9b265f272df6f184b1d467f.png" alt="http://www.weidai.com" style="zoom: 50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/9d3e99b7d9b265f272df6f184b1d467f.png" alt="http://www.weidai.com" style="zoom: 50%;" />
 
 在 2013 年多米尼克离开 Fight My Monster 之后，因为多年以前尘封心底的 “ b-money ” 迷上了比特币。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/0c0ef2986203947e6d9d9bd7fb29bba4.png" alt="image-20230124132844405" style="zoom:67%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/0c0ef2986203947e6d9d9bd7fb29bba4.png" alt="image-20230124132844405" style="zoom:67%;" />
 
 Wei Dai 在 [b-money](http://www.weidai.com/bmoney.txt) 里写道：
 
@@ -139,7 +139,7 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 我们无法弄清楚 Wei Dai 的 b-money 和比特币有多少关系，也不知道是否是因为受《主权个人》（The Sovereign Individual）的启发，进而设计了一种方案。不过 Wei Dai 的网站显示，最近更新日期是 2021 年 1 月 10 日。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/cc24110e86f36b5623b94b5bff3b1f9f.png" alt="image-20230124140739990" style="zoom:80%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/cc24110e86f36b5623b94b5bff3b1f9f.png" alt="image-20230124140739990" style="zoom:80%;" />
 
 <br>
 
@@ -149,7 +149,7 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 多米尼克 2014 年的 “ 比特币 ATM 之吻 ” 。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/83403aa2179a2e9ded1d8f5bc9dc71e2.png" alt="BjMyDsJCYAAPqZv" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/83403aa2179a2e9ded1d8f5bc9dc71e2.png" alt="BjMyDsJCYAAPqZv" style="zoom:33%;" />
 
 <br>
 
@@ -159,7 +159,7 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 比特币暴跌至 666 美元。（现在比特币报价是 23000 美元，也从高点 690000 美元跌亿点点）
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/77ae5916be556e50b88f07b00bf1343f.png" alt="image-20230123222354219" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/77ae5916be556e50b88f07b00bf1343f.png" alt="image-20230123222354219" style="zoom:50%;" />
 
 他沉下心来，深入研究传统的拜占庭容错，再结合之前的经验。多米尼克构思了一种像 Cassandra 那样能横向扩展的去中心化网络 —— 可以让越来越多的服务器加入并保持高性能。没过几天，多米尼克发表了一篇论文，描述了一种可扩展的加密货币，名为 Pebble 。论文悄悄在狭小加密圈里流传开，那是首个描述去中心化分片的系统。在这个系统中，每个分片都使用异步拜占庭共识算法来达成协议。
 
@@ -167,7 +167,7 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 学习之余，多米尼克不忘炒币。投资比特币给他带来不少安稳觉，现在他能安心设计共识算法了。至少再也不用日夜兼程、手忙脚乱地工作了。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/60f45fe06eb9fa990443162691e7cab8.png" alt="image-20230123222606352" style="zoom:52%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/60f45fe06eb9fa990443162691e7cab8.png" alt="image-20230123222606352" style="zoom:52%;" />
 
 <br>
 
@@ -175,7 +175,7 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 多米尼克从中国回到加州山景城后发推特说：China Loves Blockchain :) 。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/12d2ad4630ef26d1c5988adf7a901d51.png" alt="image-20230123222921586" style="zoom:67%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/12d2ad4630ef26d1c5988adf7a901d51.png" alt="image-20230123222921586" style="zoom:67%;" />
 
 和以太坊一样，多米尼克也在中国融到了投资。原因很简单，硅谷很早就把资金投入了比特币，并获得了巨额回报，他们不怎么关心 “ 山寨币 ” （世俗观点认为，除比特币之外的币都是 “ 山寨币 ” ，即基本模仿比特币、稍稍改进过的币）。
 
@@ -195,13 +195,13 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 在传统网络架构中，不分青红皂白，用户数据被一股脑塞进服务器里。用户不能真正控制自己的数据，谁控制服务器谁说了算。如果我们可以把这种一对多的关系看成 “ **点** ” ，星罗棋布，分散在世界各地。用户的数据流进一个个点里，乐此不疲。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/875b14eddfa1ace9a7478b5abb3301ac.png" alt="image-20230124222808798" style="zoom:20%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/875b14eddfa1ace9a7478b5abb3301ac.png" alt="image-20230124222808798" style="zoom:20%;" />
 
 那么比特币网络就可以看成 “ **线** ” ，它把孤立的点串联成线，使互联网向更公平更开放发展。比特币做的是把世界各地的电脑组合在一起，形成一个庞大的 “ **世界账本** ”  。那如果想换一种功能，记点别的东西怎么办？模仿比特币重新做一个！
 
 在比特币诞生 6 年后，一个可以在去中心化网络上部署软件的 “ **面** ” 慢慢崭露头角，它叫以太坊。以太坊不是模仿比特币的世界账本。以太坊创造了一个共享、通用的虚拟 “ **世界计算机** ” ，每个人的电脑里运行着以太坊的虚拟机。它与比特币账本一样不可破坏、不可篡改。大家都可以编写软件部署在虚拟机里，只要交一点以太币给矿工就行。（现在已经没矿工了，至于为什么，那是另一篇文章了😋）
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/38d3219e513911f18db5c8468841e030.png" alt="image-20230124190858096" style="zoom:27%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/38d3219e513911f18db5c8468841e030.png" alt="image-20230124190858096" style="zoom:27%;" />
 
 部署上链的软件化身自动售卖机，永久存储在这个分布式去中心化网络中，公平公正的判断每一笔交易是否达到条件。加上区块链永久存储的特性，便有了 “ 代码即法律 ” 一说。在这里，软件有另一个名字： “ 智能合约 ” 。
 
@@ -219,11 +219,11 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 现在我们可以从多米尼克 2015 年 devcon one 的演讲 PPT 中看到，他将 IC 描述为 Ethereum 3.0 。实际上称为区块链 3.0 也不为过。如果比特币和以太坊叫 “ 区块链 1.0 ” 和 “ 区块链 2.0 ” 的话。他想创造 “ **体** ” ，一个真正的世界计算机，连项目的名字都叫互联网计算机（Internet Computer，简称 IC）。在 “ 面 ” 的基础上承载大规模应用，可以 “ 横向扩展 ” 无限扩容的 “ 世界计算机 ” 。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d566e01d9397ce368f777127001a237c.png" alt="图片" style="zoom:57%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d566e01d9397ce368f777127001a237c.png" alt="图片" style="zoom:57%;" />
 
 不是，放错图了。下面这个是 IC 。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d600d44cc130bd67f9daad687a0db40c.png" alt="img" style="zoom:80%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d600d44cc130bd67f9daad687a0db40c.png" alt="img" style="zoom:80%;" />
 
 <br>
 
@@ -231,13 +231,13 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 多米尼克在 devcon one 上讲述了他研究的共识算法。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/93504674b2894befb3c529b248726f50.png" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/93504674b2894befb3c529b248726f50.png" style="zoom:50%;" />
 
 交谈中多米尼克发现，之前坚决拥护比特币的顽固派对以太坊的概念非常感兴趣。这使他更坚定地相信可信计算（Trusted Computing）的前景。
 
 这是比以太坊更宏伟的目标。多米尼克希望做一个由服务器组成的公共网络，提供 “ 去中心化的云 ” —— 一个可信计算平台。软件在去中心化云上部署运行。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/73d313475c9ef0586de3a71b9b05f7c5.png" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/73d313475c9ef0586de3a71b9b05f7c5.png" style="zoom:50%;" />
 
 多米尼克做的是重塑一个完全去中心化的基础设施，也可以理解为下一代互联网基础设施，还可以理解为结合区块链的去中心化可信计算平台😉。
 
@@ -253,7 +253,7 @@ Wei Dai 详细介绍了货币的创造、怎么发送、怎么防止双花、广
 
 区块链都有一个叫共识算法的东西。他负责协调网络中的节点（节点就是一组服务器，可以理解为高配置的电脑）。共识算法可以在网络中让大家的信息达成一致，因为这是一个所有人随时随地都可以加入或退出的网络，而且不知道有哪个节点会故意捣乱。（可以看我未来关于拜占庭将军的博客）有了共识算法，网络中即使存在三分之一的捣乱节点，其他的节点也照样能正常达成共识。（不同共识算法的抵抗能力不一样）
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/66123e0ee39269d5c51bd0bcb69bf024.png" alt="image-20230124221621784" style="zoom:30%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/66123e0ee39269d5c51bd0bcb69bf024.png" alt="image-20230124221621784" style="zoom:30%;" />
 
 而去中心化平台不止涉及代币之间的转账交易，还涉及用共识算法建立起一道屏障，把不怀好意的家伙隔离在外面。然而效率与去中心化不可兼得，很难建立一个完全去中心化的系统：既要保护正常的节点们达成共识，又要在一堆节点之间协调、同步数据。多米尼克需要把可信计算和区块链融合在一起，让世界各地的服务器形成一个无限、开放、高性能、强一致性、可扩展、可以大量储存数据的区块链网络，不再需要防火墙保护。
 
@@ -273,25 +273,25 @@ IC 为了实现 “ 世界计算机 ” 的想法，重新设计了区块链架�
 
 多米尼克左手忙着和技术团队搞研究，右手写团队战略规划，嘴巴还得去各种区块链论坛介绍项目。
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/fb974c47245d325b1defc2ac8865e7ec.jpeg" alt="DGRaEBfUIAAvYvY" style="zoom:15%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/fb974c47245d325b1defc2ac8865e7ec.jpeg" alt="DGRaEBfUIAAvYvY" style="zoom:15%;" />
 
 这些年来，多米尼克已经与其他区块链团队分享了许多关键密码学技术，比如 VRF 的应用，现在已经有很多知名项目用了（比如 chainlink 等等）。
 
 2017 年 2 月，多米尼克和 V 神以及众多大佬的圆桌论坛。Vitalik Buterin （左一），多米尼克（左二），Timo Hanke（右一）。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/99e283e435820e746ca62048059b4909.png" alt="FfGddz-XoAA9SzO" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/99e283e435820e746ca62048059b4909.png" alt="FfGddz-XoAA9SzO" style="zoom:33%;" />
 
 <br>
 
 Ben Lynn （左二 / 红色短袖）正在演示一种屌炸天的技术：阈值中继（Threshold Relay)。它可以大幅提升区块链的性能，快速生成区块。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/63cf9b6bfe37c841fae4da90b0004c1a.jpeg" alt="图片" style="zoom: 27%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/63cf9b6bfe37c841fae4da90b0004c1a.jpeg" alt="图片" style="zoom: 27%;" />
 
 顺便提一嘴，工程师 Timo Hanke （左三 / 中间）之前是德国亚琛大学的数学和密码学教授。2013 年创建了 AsicBoost ，将比特币开采的效率提高 20 - 30 ％ ，现在已成为大规模挖矿作业的标准。
 
 Ben Lynn 是 BLS 签名算法的创造者之一。他的 “ L ” 就是 BLS 中间那个 “ L ” ，BLS 来自三位创造者的名字首字母。从斯坦福博士毕业后他在 Google 工作了 10 年，在 2017 年 5 月加入 Dfinity 。如果你没听说过 BLS 算法，那你一定读过早些年 Ben Lynn 火遍全网的 《Git 魔法》。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/8f95eb0c3287e02f4f0b28464c7c8153.png" style="zoom:57%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/8f95eb0c3287e02f4f0b28464c7c8153.png" style="zoom:57%;" />
 
 <br>
 
@@ -332,7 +332,7 @@ Dfinity 旨在探索未来的互联网基础设施。要是说起这个，那得
 
 - 这样一来，两个大组织（政府）就会因集体利益的冲突，展开更大规模的战争，如果收益大于发动战争的成本。再招募更多军队来保护集体财产 ...... 暴力冲突越来越大，和平在哪里？核威慑。**这不是和平，是怕被核平。** 不过也总算和平了。
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/ae4c64ad03bd2877e2d7571d5a1f5fe9.png" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/ae4c64ad03bd2877e2d7571d5a1f5fe9.png" style="zoom:25%;" />
 
 到了 21 世纪，人们的财产，包括社交、娱乐逐步转移到互联网。所以保护人们财产的保护组织也迁移到了网上：网上银行、支付宝。
 
@@ -380,7 +380,7 @@ Dfinity 旨在探索未来的互联网基础设施。要是说起这个，那得
 
 5 月 10 日。IC 主网上线。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/df5b4b83d7b278dd3fdb923135947a16.jpeg" alt="Image" style="zoom:30%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/df5b4b83d7b278dd3fdb923135947a16.jpeg" alt="Image" style="zoom:30%;" />
 
 上图展示了对比其他区块链的性能、存储数据费用和能耗。
 
@@ -388,7 +388,7 @@ Dfinity 旨在探索未来的互联网基础设施。要是说起这个，那得
 
 IC 主网上线时，已经有超过 4000 名活跃的开发者了。下图是对比其他区块链的开发者增长图。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/fabf7f6e50771c50912dc419e9284f16.jpeg" alt="图片" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/fabf7f6e50771c50912dc419e9284f16.jpeg" alt="图片" style="zoom:37%;" />
 
 <br>
 
@@ -408,7 +408,7 @@ IC 有许多创新，比如无需预言机就可以直接进行 https 外调、�
 
 苏黎世办公室演算集成比特币的白板。无需私钥，直接通过 canister 处理比特币交易。集成以太坊也马上要发布了。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/6d6fa714d370a66d05a6c0d443c585b2.jpeg" style="zoom:77%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/6d6fa714d370a66d05a6c0d443c585b2.jpeg" style="zoom:77%;" />
 
 IC 在协议层面与比特币直接集成。IC 上的 canister 能直接在比特币网络上接收、持有和发送比特币。也就是说，canister 可以像普通用户一样持有比特币。canister 能够通过阈值 ECDSA 的 chain key 签名协议安全持有和使用 ECDSA 密钥。
 
@@ -426,19 +426,19 @@ IC 架构和共识也是独领风骚。IC 理论上有无限高的计算和存�
 
 根据 GitHub 和 Electric Capital 的统计（2023），IC 拥有最活跃的开发者社区。并且还在快速增长。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/616e010d7ec8b2eb236d023004f8ead4.jpeg" alt="图片" style="zoom:67%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/616e010d7ec8b2eb236d023004f8ead4.jpeg" alt="图片" style="zoom:67%;" />
 
 <br>
 
 主网上线三个星期，IC 快要达到 3000 万个区块时，办公室墙上的照片。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/f78783b11cb609cfb3545381525ee787.jpeg" alt="图片" style="zoom:50%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/f78783b11cb609cfb3545381525ee787.jpeg" alt="图片" style="zoom:50%;" />
 
 <br>
 
 2021 年 7 月，有许多新的 Dfinity 成员在新冠大流行期间通过视频会议面试加入团队，还从未见过面。这天一小群人来到位于苏黎世的办公室 face to face 。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/3adc64294313d748a0fe347ee81007b3.jpeg" alt="图片" style="zoom:17%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/3adc64294313d748a0fe347ee81007b3.jpeg" alt="图片" style="zoom:17%;" />
 
 <br>
 
@@ -452,7 +452,7 @@ IC 架构和共识也是独领风骚。IC 理论上有无限高的计算和存�
 
 图片来自 2021 年 10 月，上海。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/2cea7849c09de6aadd133bf5337ec7fa.jpeg" alt="Image" style="zoom:55%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/2cea7849c09de6aadd133bf5337ec7fa.jpeg" alt="Image" style="zoom:55%;" />
 
 <br>
 
@@ -460,31 +460,31 @@ IC 架构和共识也是独领风骚。IC 理论上有无限高的计算和存�
 
 2022 年 7 月 14 日，在苏黎世的街头咖啡馆。多米尼克和他的小伙伴正在等待 IC 的第 1,000,000,000 个区块打包。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/6de3ff8a4d75d9964afa8252433562c7.jpeg" alt="图片" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/6de3ff8a4d75d9964afa8252433562c7.jpeg" alt="图片" style="zoom:37%;" />
 
 <br>
 
 Dfinty 位于瑞士总部的新办公楼。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/03c4efa5b588d05bc594c6c98b5ef081.png" style="zoom:35%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/03c4efa5b588d05bc594c6c98b5ef081.png" style="zoom:35%;" />
 
 <br>
 
 多米尼克离开办公室时，拍了几张食堂墙上的壁画，由才华横溢的 IC NFT 艺术家创作。
 
-<img src="https://s1.imagehub.cc/images/2023/01/28/55079229adecb6dd5c35d8ad1fc84cd9.jpeg" style="zoom:20%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/28/55079229adecb6dd5c35d8ad1fc84cd9.jpeg" style="zoom:20%;" />
 
 多米尼克吃着蛋糕，唱着歌，一不小心又写了几百行代码的小项目。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/f9803e7660dbfa51bc918b50e92a3e91.jpeg" alt="图片" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/f9803e7660dbfa51bc918b50e92a3e91.jpeg" alt="图片" style="zoom:33%;" />
 
 工作之余，吹拉弹唱一样不能少。
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/88fefffafff481e6a74b511e629f2fc5.png" alt="image-20230124235301028" style="zoom:70%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/88fefffafff481e6a74b511e629f2fc5.png" alt="image-20230124235301028" style="zoom:70%;" />
 
 <br>
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/d906dc0876066d58bf33d4a2c619bc20.png" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/d906dc0876066d58bf33d4a2c619bc20.png" style="zoom:37%;" />
 
 <br>
 
@@ -526,7 +526,7 @@ Dfinty 位于瑞士总部的新办公楼。
 
 忽然，时间暂停了。周围的一切都暂停了。神经元膨胀、崩裂，释放出的信息素又催化了其他的神经元，我的头不受控制的抖动起来，又突然膨胀，眼珠子大的像鼠标，耳朵拧成了麻花 ...... 那声音似乎伴随着玻璃破碎的声音，鞋底敲地的声音，鸟鸣犬吠的声音 ...... 
 
-<img src="https://s1.imagehub.cc/images/2023/01/26/cfc9f9909024db41734c7a23eb881472.jpeg" alt="123" style="zoom:33%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/26/cfc9f9909024db41734c7a23eb881472.jpeg" alt="123" style="zoom:33%;" />
 
 脑子闪过一道白光，很快，白光扩散成一白茫茫片。周围是蓝色的，下面有密密麻麻的方块和线条；一个点亮光突然闪耀、扩大，吞没了一切；周围还是蓝色的，下面是白色的。
 

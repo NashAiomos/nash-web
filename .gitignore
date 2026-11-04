@@ -12,3 +12,6 @@ node_modules
 dist
 .DS_Store
 .vercel
+
+# Original images backed up locally after R2 migration
+/.image-backup/

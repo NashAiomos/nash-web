@@ -59,6 +59,30 @@ You should modify the following files
 - content - your article folder
 - `pages\p\[...post].vue` - comment config, to [Giscus](https://giscus.app/zh-CN)
 
+## Article images
+
+Article images are stored in the Cloudflare R2 Standard bucket `nash-web-images`.
+Articles use absolute image URLs under:
+
+```text
+https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/
+```
+
+`docs/image-sources.json` records every original URL, R2 object key, public URL,
+and SHA-256 checksum. All 207 migrated images were downloaded through their new
+public URLs and checked against the original file checksums before updating articles.
+The unrecoverable first image in `content/blog/my-story.md` was removed.
+
+The `r2.dev` address is a rate-limited development endpoint and does not provide
+Cloudflare CDN caching. Bind a custom domain to the bucket for production caching;
+then replace the public URL prefix in the articles and source manifest.
+
+Original downloaded files are kept in the ignored `.image-backup/posts/` directory
+of the local checkout. They are not committed to Git or included in the website build.
+Future image uploads should use unique object keys and a correct image content type.
+Keep Cloudflare credentials out of the repository; the blog needs no credentials to
+display images from their public URLs.
+
 ## Icon
 - [icon-park-outline](https://icones.js.org/collection/icon-park-outline)
 - [simple-icons](https://icones.js.org/collection/simple-icons)

@@ -11,13 +11,13 @@ tags:
 
 你工作一个月之后，收到了工资。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/3dccd8fed35a23779c3d6534c8a103dc.png" alt="1" style="zoom:30%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/3dccd8fed35a23779c3d6534c8a103dc.png" alt="1" style="zoom:30%;" />
 
 你非常高兴，决定把这六千存起来留着养老用。
 
 在 60 年后，你从家里取出陈年旧币，去超市花了 6434￥ 买了一瓶叫口渴口乐的饮料。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/c733a0f8b02af94de618f49991f8dab9.png" alt="2" style="zoom:23%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/c733a0f8b02af94de618f49991f8dab9.png" alt="2" style="zoom:23%;" />
 
 我的钱怎么越来越不值钱了？！！！不行！赶紧启动时光机，回到 60 年前。
 
@@ -37,7 +37,7 @@ tags:
 
 那什么东西是不贬值的？😋 有没有一种东西，它的价值长期恒定，而且经得住时间考验？
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/d706d119b740b3ff097551a8441d4af1.png" style="zoom:35%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/d706d119b740b3ff097551a8441d4af1.png" style="zoom:35%;" />
 
 盛世古董，乱世黄金。
 
@@ -53,7 +53,7 @@ tags:
 
 什么都不用干，钱就会慢慢变多。无论是今天出门摔了一跤，还是和朋友吵架了，打开手机看着钱一点一点变多，肯定立马笑逐颜开。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/2507751e444c2121622eea82e51841cb.png" alt="3" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/2507751e444c2121622eea82e51841cb.png" alt="3" style="zoom:25%;" />
 
 <br>
 
@@ -67,11 +67,11 @@ tags:
 
 比如你认为比特币的价格将会大涨。但是拿不出很多钱直接买比特币。于是你找某个有钱人借了 10 万美金买比特币。但是不能白借，你得把身上仅有的 100 美金作为抵押，并在还款时支付一小笔利息。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/b77c70e2d790838dd5cc9481eed60d0a.png" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/b77c70e2d790838dd5cc9481eed60d0a.png" style="zoom:25%;" />
 
 当比特币价格从 1$ 涨到 2\$ 时，你手里的比特币值 20 万美金。然后你觉得比特币价格涨不动了，于是卖掉比特币，从 20 万中拿出 10.1 万还给有钱人。剩下的 9.9 万美金就是你的钱了。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/98949d1cdd1c7eb9dafa22841b9ea97f.png" alt="image-20230110214841400" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/98949d1cdd1c7eb9dafa22841b9ea97f.png" alt="image-20230110214841400" style="zoom:25%;" />
 
 当然，如果你判断错了，比特币大跌。当亏损的钱等于你的全部押金时，有钱人就会强行收回比特币，卖掉换成美金。然后把你的 100 押金也扣掉。你也可以在比特币跌了一点时卖掉比特币、并用押金凑齐 10.1 万刀还款，这样说不定还能剩下一些押金。
 
@@ -81,7 +81,7 @@ tags:
 
 假如现在比特币是 1$ 一个。你很穷。从有钱人那里借了 100 个比特币，卖掉比特币后，你现在有 100\$ 。如果比特币跌到了 0.5\$ ，你就可以花 50.5 美金买 101 个比特币还给有钱人。这时候，你赚了 100 - 50.5 美金 ~ 而如果比特币涨了，那你就得支付更多的钱还债。
 
-<img src="https://s1.imagehub.cc/images/2023/01/12/319fec616fc0ac71a0a218a861139e6e.png" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/12/319fec616fc0ac71a0a218a861139e6e.png" style="zoom:25%;" />
 
 总之，你虽然没多少钱，但是可以通过借钱的方式在投资市场赚钱。
 
@@ -91,13 +91,13 @@ tags:
 
 在这个游戏里，有钱人无论如何都是只赚不赔的。你赚了，他得到你借钱的利息；你亏了，他有剩下的钱 + 押金 + 利息，还是有利息赚。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/457261b75cfb69f89553354ab79cd5a1.png" alt="image-20230110230928570" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/457261b75cfb69f89553354ab79cd5a1.png" alt="image-20230110230928570" style="zoom:25%;" />
 
 <br>
 
 大家买入、卖出、做多、做空，形成了投资市场。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/ac8d7d0a8904fc6cff3ad5fae960ed95.png" alt="image-20230110223826672" style="zoom:15%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/ac8d7d0a8904fc6cff3ad5fae960ed95.png" alt="image-20230110223826672" style="zoom:15%;" />
 
 <br>
 
@@ -105,25 +105,25 @@ tags:
 
 每个人的比特币都是从水池里买的。所以现在池子里除了有比特币之外，还有很多钱。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/4413ef6f8e3aa10cb49a855f35a13282.png" alt="image-20230111095456151" style="zoom:20%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/4413ef6f8e3aa10cb49a855f35a13282.png" alt="image-20230111095456151" style="zoom:20%;" />
 
 只要有人用钱买比特币，池子里的比特币就越来越少，钱越来越多，比特币的创造者就越有钱。人们一批一批的蜂拥而至，都想用钱换比特币，那么在需求增大、池子里的比特币变少后，比特币开始涨价。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/cc58e6b0c037f0b6bec8a5b900e0dcf5.png" alt="image-20230111102110071" style="zoom:15%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/cc58e6b0c037f0b6bec8a5b900e0dcf5.png" alt="image-20230111102110071" style="zoom:15%;" />
 
 相反，如果人人都觉得比特币是骗局，都想卖出自己的比特币，比特币的供大于求，价格下跌。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/b6a288393074fc467f47c967ff638289.png" alt="image-20230111102447627" style="zoom:15%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/b6a288393074fc467f47c967ff638289.png" alt="image-20230111102447627" style="zoom:15%;" />
 
 现在比特币的价格是 100$ ，总共有 2100 个比特币，比特币的市值是：价格乘总数 = 210000\$ 。
 
 比特币的供求稳定，价格也维持稳定。如果这时有个有钱人过来，突然买了很多比特币。比特币的价格也就大涨。如果这个有钱人没有直接买比特币，而是选择做多比特币。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/ac1469d0da67d1ff2be0dcfb15abe48d.png" alt="image-20230111100814577" style="zoom:20%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/ac1469d0da67d1ff2be0dcfb15abe48d.png" alt="image-20230111100814577" style="zoom:20%;" />
 
 比如他用 1000000$ 作为押金，向投资机构借了 100000000000\$ 买比特币，比特币立马原地暴涨。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/fdc46043bbd76235d0b5bf25bbb33c98.png" alt="image-20230111103911710" style="zoom:37%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/fdc46043bbd76235d0b5bf25bbb33c98.png" alt="image-20230111103911710" style="zoom:37%;" />
 
 比特币暴涨将吸引新闻媒体报导、引发更多人的关注，于是更多的人开始选择投资比特币了。当然，更多人买就会让比特币继续上涨。同时有钱人也通过社交媒体宣传造势：1 枚比特币 1000 万美金！BTC To The Moon！
 
@@ -143,7 +143,7 @@ tags:
 
 有钱人知道人们的成本在 2000$ ，他不能重复上次的把戏，直接拉升比特币的后果是：人们变得更加谨慎，并在比特币 2000\$ 时卖出，哪怕涨到 4000\$ 也不买了。有钱人这样赚不到钱，不过他又想了一个办法：他先小幅度拉升比特币，再让比特币下跌，反复震荡，就是不涨到 2000\$ 。（也叫 “ **洗盘**、**震仓** ”）当人们看着价格涨一点儿又跌一大截儿，伤心，失望，去中心化互联网的信仰逐渐开始动摇，等大部分人对比特币彻底失望、卖出比特币后，有钱人才会开始拉盘。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/4829e634359615492949411ab9e06dc1.png" alt="image-20230111113220079" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/4829e634359615492949411ab9e06dc1.png" alt="image-20230111113220079" style="zoom:25%;" />
 
 此时，2000\$ 就是比特币的**阻力位**。比特币涨到触及阻力位时（接近 2000\$ 时），往往会下跌。因为有钱人发现，再往上涨就立刻出现大量卖出比特币的情况，说明大家还在等比特币涨到 2000$ 。这个过程叫**测试阻力位**。有钱人通过几次对阻力位的测试来分析人们到底有没有卖出比特币。
 
@@ -183,19 +183,19 @@ tags:
 
  * 第五步，涨一波，不过在涨的过程中也小心测试着，上方有抛压就会把价格给打下来
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/174e114475714ea0f8061cd7cc8f3213.png" alt="image-20230111113220079" style="zoom:85%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/174e114475714ea0f8061cd7cc8f3213.png" alt="image-20230111113220079" style="zoom:85%;" />
 
 行情走势大体就是这样。
 
 终极大震仓很可能发生在价格逐渐走低时，或者一段交易区间的末尾。涨一点，然后阴跌，再拉起一点，再跌，最后很可能就来个大跌，直线下跌。加上媒体的配合，制造恐慌情绪，让被套的散户割肉。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/6c90c0e6978160b622056a969f80d45a.png" alt="image-20230111173034231" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/6c90c0e6978160b622056a969f80d45a.png" alt="image-20230111173034231" style="zoom:25%;" />
 
 震仓之后，庄家吸筹接盘，往往能创造一波不错的涨幅，当然也可能重复震仓步骤，再来一次下跌。震完仓庄家自然是要吸筹的，通过吸筹可以摸清楚市场上还有谁在做短线波段交易，有多少浮动的筹码。
 
 这是 2022 年比特币的价格走势。在 2022 年熊市中，有 N 次这样的大幅直线下跌。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/4dde233df9ea985b0c923a9c87c2305c.png" alt="4dde233df9ea985b0c923a9c87c2305c.png" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/4dde233df9ea985b0c923a9c87c2305c.png" alt="4dde233df9ea985b0c923a9c87c2305c.png" />
 
 在上图中还有一些黄色的趋势线，现在咱们来聊聊关于趋势线的分析。
 
@@ -209,31 +209,31 @@ tags:
 
 当 2 条下降趋势线形成交点时，价格必须得选择一个方向进行突破。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/6a2d2f1ed5981df05842d8b64cf66db0.png" alt="image-20230111195657916" style="zoom:20%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/6a2d2f1ed5981df05842d8b64cf66db0.png" alt="image-20230111195657916" style="zoom:20%;" />
 
 顶部的趋势线就是阻力，价格涨到顶部很可能会下跌，一般这是做空的机会。经过几次测试后，价格就会突破，意味着经过测试后，上方已经没有抛压了，庄家选择继续拉盘。所以，你看见已经测试过一、两次趋势线（或者阻力位）后，在第三次触及线的时候就很可能突破。测试的次数越多，突破的可能性就越大。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/80f0becfa4b2905b6f5b48fc361a4b0f.png" alt="image-20230111133428973" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/80f0becfa4b2905b6f5b48fc361a4b0f.png" alt="image-20230111133428973" style="zoom:25%;" />
 
 同样的，每次到达底部趋势线时，就很可能拉升，这时候可以短线**抄底**。不过多次测试后，也很可能直接跌破底部趋势线。
 
 抄底意思是认为某个价格已经是底部了，然后进行买入的操作。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/d98bb2f37187be8220896cedc4c7dd11.png" alt="image-20230111205201975" style="zoom:77%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/d98bb2f37187be8220896cedc4c7dd11.png" alt="image-20230111205201975" style="zoom:77%;" />
 
 趋势线顾名思义，就是趋势的线嘛。市场上的趋势分为大趋势、次级趋势、小趋势。我们只需要关注大趋势、稍微注意一下次级趋势就行，至于小趋势，无所谓的。
 
 比如下图大趋势下跌，就会创造出更低的高点和更低的低点。再看上图，在上升趋势中创造了更高的高点和更高的低点。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/4f16b65c64b6b4d7e9fc5f954fc49d58.png" alt="image-20230111212747538" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/4f16b65c64b6b4d7e9fc5f954fc49d58.png" alt="image-20230111212747538" style="zoom:25%;" />
 
 或者看下面的图，2021 年 7 ~ 12 月比特币的 2 股上升趋势。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/9f34577b104c5db3af24b0341efb8193.png" alt="image-20230111215050670" style="zoom:55%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/9f34577b104c5db3af24b0341efb8193.png" alt="image-20230111215050670" style="zoom:55%;" />
 
 也可以看蓝色的大趋势。是上涨的趋势，没错了。在上升趋势中小幅的下跌称之为**回调**，只要没回调到上一个低点之下就行。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/7ee399f27c0c7854f111f29cb02b6399.png" alt="image-20230111215527876" style="zoom:55%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/7ee399f27c0c7854f111f29cb02b6399.png" alt="image-20230111215527876" style="zoom:55%;" />
 
 <br>
 
@@ -245,7 +245,7 @@ tags:
 
 华尔街有句流传非常广的话：Don't fight the Fed. 甭和美联储作对。
 
-<img src="https://s1.imagehub.cc/images/2023/01/11/b323766584aa961c9e4659cf062d66ce.png" alt="image-20230111210039145" style="zoom:35%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/11/b323766584aa961c9e4659cf062d66ce.png" alt="image-20230111210039145" style="zoom:35%;" />
 
 所以呢，我们只要看清大趋势，顺着大趋势交易，就能减少庄家短期操盘对我们的影响了。技术分析主要用在未来中短期预测上，大行情还得看政府、央行、联储之类的宏观调控。
 

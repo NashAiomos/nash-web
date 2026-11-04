@@ -31,11 +31,11 @@ In 2021, I started to learn Rust because of blockchain. I really like the open-s
 
 I was amazed at the IC of dfinity. In November 2021, I signed up for the China hackathon held by dfinity and started to learn to develop projects on IC. I have met many friends in the IC community, they are very enthusiastic to answer my questions and provide help, Mike, Lydia, lshoo, Peter ... The webpage I made for Lydia looks like this, it is not adapted to the mobile, and it can be viewed on the PC ~ 
 
-<img src="https://s1.imagehub.cc/images/2023/01/14/41cd8f2164adbb822b96afa2e8ec71cc.jpeg" style="zoom:17%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/14/41cd8f2164adbb822b96afa2e8ec71cc.jpeg" style="zoom:17%;" />
 
 After finishing this, I started to conceive an [IC NFT blog](https://github.com/NeutronStarLab). The blog is stored in the author's own canister. When publishing an article, it is sent to the community's canister, and then the community canister sends it to readers for browsing; It is determined by a series of interactive data such as viewing time, page views, number of likes, comments, etc.
 
-<img src="https://s1.imagehub.cc/images/2023/01/14/ca019e8a0d59eb702d7c51bbf77f6604.png" style="zoom:80%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/14/ca019e8a0d59eb702d7c51bbf77f6604.png" style="zoom:80%;" />
 
 Now I will continue to learn about blockchain.
 
@@ -52,7 +52,7 @@ I think IC is very much in line with my vision of the next generation supporting
 
 Only subversive innovation can replace ETH, and small repairs and small repairs will not work. So I sold bitcoin and ethereum and bought ICP at 5.5~3.6 USD. 
 
-<img src="https://s1.imagehub.cc/images/2023/01/14/bf1a5b1cc2ac44d10c51b7e3dae9955e.jpeg" style="zoom:25%;" />
+<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/01/14/bf1a5b1cc2ac44d10c51b7e3dae9955e.jpeg" style="zoom:25%;" />
 
 IC nodes are in the computer room of a large data center. Ordinary small computers cannot be used as nodes. It is not as wasteful as BTC, and finally there is a tendency to return to centralization: various BTC mining pools merge mining machines together to mine, so that In the future, the originally very decentralized network has been merged into several large nodes (mines). So you see, BTC cannot achieve more and more “ decentralization ” . 
 
