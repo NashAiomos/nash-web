@@ -51,7 +51,6 @@ export default defineNuxtConfig({
       ],
       // 添加链接标签以确保CSS正确加载
       link: [
-        { rel: 'stylesheet', href: 'css/main.css' }, // 如果有额外的CSS文件
         { rel: 'icon', href: '/nash-web/favicon.ico' },
       ]
     },

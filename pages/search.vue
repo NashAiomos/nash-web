@@ -1,35 +1,22 @@
 <script setup lang="ts">
-import { useDebounceFn } from '@vueuse/core'
-
 const searchValue = ref('')
-const queryResult = ref()
 
-const getQueryResult = useDebounceFn(async () => {
-  if (!searchValue.value) {
-    queryResult.value = []
-    return
-  }
+// Include the search index in the static payload: GitHub Pages has no query server.
+const { data: articles } = await useAsyncData('search-articles', () =>
+  queryContent().only(['_path', 'title', 'description', 'tags', 'date']).find(),
+)
 
-  queryResult.value = await queryContent()
-    .where({
-      $or: [
-        { title: { $regex: new RegExp(`.*${searchValue.value}.*`, 'i') } },
-        {
-          description: {
-            $regex: new RegExp(`.*${searchValue.value}.*`, 'i'),
-          },
-        },
-        {
-          tags: {
-            $contains: searchValue.value,
-          },
-        },
-      ],
-    })
-    .find()
-}, 600)
+const queryResult = computed(() => {
+  const term = searchValue.value.trim().toLocaleLowerCase()
+  if (!term) return []
 
-watch(searchValue, getQueryResult)
+  return (articles.value ?? []).filter((article) => {
+    if (!article.date) return false
+    const tags = Array.isArray(article.tags) ? article.tags : []
+    return [article.title, article.description, ...tags]
+      .some(value => String(value ?? '').toLocaleLowerCase().includes(term))
+  })
+})
 </script>
 
 <template>

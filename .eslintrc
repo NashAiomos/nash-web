@@ -1,6 +1,37 @@
 {
-  "extends": "@chansee97/eslint-config-vue",
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2022": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-essential"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    ".nuxt/",
+    ".output/",
+    "node_modules/"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.vue"
+      ],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ],
   "rules": {
-    "vue/dot-location":"off"
+    "vue/multi-word-component-names": "off"
   }
 }

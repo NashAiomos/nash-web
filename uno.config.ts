@@ -1,4 +1,4 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts, transformerVariantGroup } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetWind3, presetWebFonts, transformerVariantGroup } from 'unocss'
 import { navLinks, socialLinks } from './site.config'
 
 const compoundLinks = [...navLinks, ...socialLinks]
@@ -26,7 +26,7 @@ export default defineConfig({
     },
   },
   presets: [
-    presetUno({
+    presetWind3({
       dark: 'class',
     }),
     presetWebFonts({
