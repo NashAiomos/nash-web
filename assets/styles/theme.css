@@ -7,6 +7,8 @@
 }
 
 html {
+  color-scheme: light;
+
   --primary: #0d0d0d;
   --c-bg: #f3f2ee;
   --c-scrollbar: #ccc;
@@ -15,6 +17,8 @@ html {
 }
 
 html.dark {
+  color-scheme: dark;
+
   --primary: #ebebeb;
   --c-bg: #141414;
   --c-scrollbar: #555;

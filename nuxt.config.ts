@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { siteConfig } from './site.config'
+import { themeInitScript } from './utils/theme'
 
 export default defineNuxtConfig({
   // 启用 SSR，这对静态生成很重要
@@ -45,7 +46,9 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: 'font-sans',
       },
-      script: [ // 放大查看图片
+      script: [
+        { key: 'theme-init', innerHTML: themeInitScript, tagPriority: 'critical' },
+        // 放大查看图片
         { src: '/nash-web/bigimg.js' },
         { src: '/nash-web/custom.js' },
       ],
