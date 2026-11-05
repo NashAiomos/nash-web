@@ -1,9 +1,24 @@
 <script setup lang="ts">
-const { posts } = defineProps(['posts'])
+import { getIncludedYearPosts } from '@/utils'
+
+const props = defineProps<{ category: string }>()
+const { data: posts, error } = await useAsyncData(`post-list:${props.category}`, () =>
+  getIncludedYearPosts(props.category),
+)
+
+function reloadPosts() {
+  reloadNuxtApp({ force: true })
+}
 </script>
 
 <template>
-  <ul>
+  <p v-if="error" role="alert">
+    Couldn't load posts.
+    <button type="button" class="underline" @click="reloadPosts">
+      Reload page
+    </button>
+  </p>
+  <ul v-else>
     <template v-for="(article, index) in posts" :key="article._path">
       <div
         v-if="article.isMarked" class="relative pointer-events-none select-none h-20"

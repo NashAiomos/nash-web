@@ -65,10 +65,15 @@ tags:
 大多数人对未来技术的预测都是悲观的，因为科技发展是越来越快的指数型增长。
 
 目前已经看到的科技水平的发展：
+
 <img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/c3c924b9bf93f1b08ec591f8d4f473de.png">
-以现在的视角预测未来科技走向: 
+
+以现在的视角预测未来科技走向:
+
 <img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/eed595f94d665b63dd2e446f6a3d8d3b.png">
+
 实际上未来的趋势是这样的：
+
 <img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/40826f2933f48fe08299652ab3452da3.png">
 
 我们变得更好之后，我们就能更好地变得更好。而当我们能更好地变得更好之后，我们也就能更快地变得更好。

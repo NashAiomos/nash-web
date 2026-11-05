@@ -2,7 +2,8 @@
 const route = useRoute()
 const path = computed(() => {
   const post = route.params.post
-  return Array.isArray(post) ? post.join('/') : String(post || '')
+  const slug = Array.isArray(post) ? post.join('/') : String(post || '')
+  return slug.replace(/\/+$/, '')
 })
 </script>
 

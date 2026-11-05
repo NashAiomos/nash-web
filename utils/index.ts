@@ -27,6 +27,9 @@ export function insertYearToPosts(posts: any) {
 }
 
 export async function getIncludedYearPosts(dirName: string) {
-  const result = await queryContent(dirName).sort({ date: -1 }).find()
+  const result = await queryContent(dirName)
+    .only(['_path', 'title', 'date'])
+    .sort({ date: -1 })
+    .find()
   return insertYearToPosts(result)
 }
