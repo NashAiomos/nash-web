@@ -53,7 +53,7 @@ export const socialLinks = [
   {
     title: 'X',
     path: 'https://x.com/nashaiomos',
-    icon: 'i-simple-icons-twitter',
+    icon: 'i-simple-icons-x',
   },
   {
     title: 'Github',
