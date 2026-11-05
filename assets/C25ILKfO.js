@@ -1,1 +1,0 @@
-import{_ as n,a as r}from"./DBgOgrSZ.js";import{_ as c,c as s,b as o,F as _,o as a}from"./BYC7SeEa.js";import"./BJfD2Xbm.js";import"./cq1SS3dV.js";import"./Dmpc1kTI.js";import"./DQCgHCLs.js";import"./tTuIsUux.js";import"./DAWFR-6j.js";const m={};function p(i,f){const t=n,e=r;return a(),s(_,null,[o(t),o(e,{category:"novel"})],64)}const B=c(m,[["render",p]]);export{B as default};
