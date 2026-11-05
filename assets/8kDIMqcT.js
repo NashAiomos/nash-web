@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{c as s,a as e,o as n}from"./Dghq3DES.js";const r={},c={class:"prose slide-enter-content"};function _(l,o){return n(),s("section",c,[...o[0]||(o[0]=[e("h1",null,"Oops! 404",-1),e("p",null,"You look like you're looking for something that doesn't exist",-1)])])}const f=t(r,[["render",_]]);export{f as default};
