@@ -49,33 +49,19 @@ export const socialLinks = [
 
 export const projectList = [
   {
-    name: 'Projects',
-    content: [
-      {
-        name: 'IceCube🧊',
-        desc: 'A Social DApp 100% on Chain',
-        path: 'https://github.com/NeutronStarDAO/icecube',
-      },
-      {
-        name: 'ConstellationBook',
-        desc: 'Unlock the Depths of IC Technology Through a Book.',
-        path: 'https://github.com/NeutronStarDAO/ConstellationBook-English',
-      },
-      {
-        name: 'ConstellationBook-Chinese',
-        desc: '《互联网计算机漫游指南》',
-        path: 'https://github.com/NeutronStarDAO/ConstellationBook-Chinese',
-      },
+    name: 'IceCube',
+    desc: 'A social app built entirely on the Internet Computer, where users can trade shares tied to individual posts. I designed the app’s architecture, features, and interface.',
+    links: [
+      { label: 'View demo', href: 'https://mjlwf-iqaaa-aaaan-qmtna-cai.icp0.io/' },
+      { label: 'Source code', href: 'https://github.com/NeutronStarDAO/icecube' },
     ],
   },
   {
-    name: 'Starter',
-    content: [
-      {
-        name: 'DFINITY',
-        desc: 'The Internet Computer aims to reinvent the internet as a computer to host secure software and a new breed of open internet services.',
-        path: 'https://github.com/dfinity',
-      },
+    name: 'Constellation Book',
+    desc: 'An illustrated guide I wrote to explain how the Internet Computer works and how to build decentralized apps on it. Available in English and Chinese.',
+    links: [
+      { label: 'Read in English', href: 'https://neutronstardao.github.io/constellation.github.io/' },
+      { label: '阅读中文版', href: 'https://neutronstardao.github.io/constellationzh.github.io/', lang: 'zh-Hans' },
     ],
   },
 ]
