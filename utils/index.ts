@@ -28,7 +28,7 @@ export function insertYearToPosts(posts: any) {
 
 export async function getIncludedYearPosts() {
   const result = await queryContent()
-    .where({ _path: { $regex: /^\/(blog|life|novel)\// } })
+    .where({ _file: { $regex: /^blog\// } })
     .only(['_path', 'title', 'date'])
     .sort({ date: -1 })
     .find()

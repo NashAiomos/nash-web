@@ -1,5 +1,6 @@
 ---
 title: 中子星是谁？
+_path: /life/who-i
 date: 2023-02-03
 categories:
  - About me

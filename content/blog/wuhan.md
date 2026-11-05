@@ -1,5 +1,6 @@
 ---
 title: 武漢历闲记
+_path: /life/wuhan
 date: 2022-10-31
 categories:
  - Informal essay
