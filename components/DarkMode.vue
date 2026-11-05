@@ -14,7 +14,7 @@ const toggleDark = useToggle(isDark)
   <button
     type="button"
     title="Toggle Color Scheme"
-    aria-label="切换浅色或深色模式"
+    aria-label="Toggle color scheme"
     class="dark:i-icon-park-outline-moon i-icon-park-outline-sun hover"
     @click="toggleDark()"
   />

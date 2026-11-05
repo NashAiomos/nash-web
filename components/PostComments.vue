@@ -17,7 +17,8 @@ const apiUrl = String(useRuntimeConfig().public.commentsApiUrl).replace(/\/$/, '
 const tokenKey = 'nash-web-comment-token-v1'
 const nameKey = 'nash-web-comment-name-v1'
 const token = useState('comment-visitor-token', () => '')
-const nickname = useState('comment-visitor-name', () => '访客')
+const defaultNickname = 'Guest'
+const nickname = useState('comment-visitor-name', () => defaultNickname)
 const persistent = useState('comment-identity-persistent', () => true)
 const content = ref('')
 const website = ref('')
@@ -38,7 +39,8 @@ function initializeIdentity() {
   try {
     const saved = localStorage.getItem(tokenKey)
     token.value = saved && /^[a-f0-9]{64}$/.test(saved) ? saved : token.value
-    nickname.value = localStorage.getItem(nameKey) || nickname.value
+    const savedName = localStorage.getItem(nameKey)
+    nickname.value = savedName === '访客' ? defaultNickname : savedName || nickname.value
   } catch {
     persistent.value = false
   }
@@ -64,14 +66,14 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   if (options.body) headers.set('Content-Type', 'application/json')
   const response = await fetch(`${apiUrl}${path}`, { ...options, headers, credentials: 'omit', signal: controller.signal })
   const data = await response.json().catch(() => ({}))
-  if (!response.ok) throw new Error(data.error || '评论服务暂不可用，请稍后再试。')
+  if (!response.ok) throw new Error(data.error || 'Comments are temporarily unavailable. Please try again later.')
   return data as T
 }
 
 function errorMessage(error: unknown) {
   if (error instanceof Error && error.name === 'AbortError') return ''
-  if (error instanceof TypeError) return '暂时无法连接评论服务，请检查网络后重试。'
-  return error instanceof Error ? error.message : '操作没有完成，请稍后重试。'
+  if (error instanceof TypeError) return 'Could not connect to the comment service. Check your connection and try again.'
+  return error instanceof Error ? error.message : 'Something went wrong. Please try again.'
 }
 
 async function loadComments(more = false) {
@@ -100,7 +102,7 @@ async function submitComment() {
   const name = nickname.value.trim()
   const text = content.value.trim()
   if (!name || name.length > 40 || !text || text.length > 3000) {
-    formError.value = '请填写昵称和评论，昵称最多 40 字，评论最多 3000 字。'
+    formError.value = 'Enter a display name (up to 40 characters) and a comment (up to 3,000 characters).'
     return
   }
   const signature = JSON.stringify([props.postPath, name, text])
@@ -118,7 +120,7 @@ async function submitComment() {
     nickname.value = data.viewer.name
     content.value = ''
     draftRequest = null
-    message.value = '评论已发布。'
+    message.value = 'Comment posted.'
   } catch (error) {
     formError.value = errorMessage(error)
   } finally {
@@ -127,7 +129,7 @@ async function submitComment() {
 }
 
 async function deleteComment(comment: CommentRecord) {
-  if (deleting.value || loading.value || submitting.value || !window.confirm('确定删除这条评论吗？')) return
+  if (deleting.value || loading.value || submitting.value || !window.confirm('Delete this comment?')) return
   deleting.value = comment.id
   formError.value = ''
   message.value = ''
@@ -135,7 +137,7 @@ async function deleteComment(comment: CommentRecord) {
     await request(`/api/comments/${comment.id}`, { method: 'DELETE' })
     comments.value = comments.value.filter(item => item.id !== comment.id)
     total.value = Math.max(0, total.value - 1)
-    message.value = '评论已删除。'
+    message.value = 'Comment deleted.'
   } catch (error) {
     formError.value = errorMessage(error)
   } finally {
@@ -149,11 +151,11 @@ function avatarColor(id: string) {
 }
 
 function avatarLabel(name: string) {
-  return Array.from(name.trim())[0]?.toLocaleUpperCase() || '访'
+  return Array.from(name.trim())[0]?.toLocaleUpperCase() || 'G'
 }
 
 function formatDate(timestamp: number) {
-  return new Intl.DateTimeFormat('zh-CN', { dateStyle: 'medium', timeStyle: 'short' }).format(timestamp)
+  return new Intl.DateTimeFormat('en', { dateStyle: 'medium', timeStyle: 'short' }).format(timestamp)
 }
 
 onMounted(async () => {
@@ -166,56 +168,53 @@ onBeforeUnmount(() => controller.abort())
 <template>
   <section class="comments" aria-labelledby="comments-title">
     <div class="comments-heading">
-      <h2 id="comments-title">评论 <span v-if="total" class="muted">{{ total }}</span></h2>
-      <button type="button" class="text-button" :disabled="loading || submitting || !!deleting" @click="loadComments()">刷新</button>
+      <h2 id="comments-title">Comments <span v-if="total" class="muted">{{ total }}</span></h2>
+      <button type="button" class="text-button" :disabled="loading || submitting || !!deleting" @click="loadComments()">Refresh</button>
     </div>
 
     <form class="comment-form" @submit.prevent="submitComment">
-      <label for="comment-name">昵称</label>
-      <input id="comment-name" v-model="nickname" name="nickname" maxlength="40" required autocomplete="nickname" placeholder="你希望显示的名字">
-      <label for="comment-content">说点什么</label>
-      <textarea id="comment-content" v-model="content" name="comment" rows="4" maxlength="3000" required placeholder="分享你的想法……" />
+      <label for="comment-name">Display name</label>
+      <input id="comment-name" v-model="nickname" name="nickname" maxlength="40" required autocomplete="nickname" placeholder="Your display name">
+      <label for="comment-content">Comment</label>
+      <textarea id="comment-content" v-model="content" name="comment" rows="4" maxlength="3000" required placeholder="Share your thoughts…" />
       <div class="comment-trap" aria-hidden="true">
-        <label for="comment-website">请留空</label>
+        <label for="comment-website">Leave blank</label>
         <input id="comment-website" v-model="website" name="website" tabindex="-1" autocomplete="off">
       </div>
       <div class="form-actions">
         <span class="muted character-count">{{ content.length }} / 3000</span>
         <button type="submit" class="submit-button" :disabled="loading || submitting || !!deleting || !token || !content.trim()">
-          {{ submitting ? '发布中……' : '发布评论' }}
+          {{ submitting ? 'Posting…' : 'Post comment' }}
         </button>
       </div>
-      <div class="identity-note muted">
-        无需登录。此浏览器会记住你的昵称和匿名身份；清除浏览数据或更换设备后，会视为新访客。
-      </div>
-      <div v-if="!persistent" class="identity-note muted">当前浏览器无法保存身份，本次访问仍可评论，刷新或关闭页面后将无法管理这些评论。</div>
+      <div v-if="!persistent" class="identity-note muted">Browser storage is unavailable. You can manage comments you post until you reload or close this page.</div>
       <div v-if="formError" class="comment-error" role="alert">{{ formError }}</div>
       <div v-if="message" class="comment-message" role="status">{{ message }}</div>
     </form>
 
     <div v-if="listError" class="comment-error" role="alert">
-      {{ listError }} <button type="button" class="text-button" :disabled="loading" @click="loadComments()">重试</button>
+      {{ listError }} <button type="button" class="text-button" :disabled="loading" @click="loadComments()">Retry</button>
     </div>
-    <div v-if="loading && !comments.length" class="empty-comments muted" role="status">正在加载评论……</div>
-    <div v-else-if="!comments.length && !listError" class="empty-comments muted">还没有评论，欢迎留下第一条想法。</div>
+    <div v-if="loading && !comments.length" class="empty-comments muted" role="status">Loading comments…</div>
+    <div v-else-if="!comments.length && !listError" class="empty-comments muted">No comments yet. Be the first to share your thoughts.</div>
 
     <div class="comment-list" role="list">
-      <article v-for="comment in comments" :key="comment.id" class="comment-item" role="listitem" :aria-label="`${comment.name}的评论`">
+      <article v-for="comment in comments" :key="comment.id" class="comment-item" role="listitem" :aria-label="`Comment by ${comment.name}`">
         <div class="comment-avatar" :style="{ backgroundColor: avatarColor(comment.authorId) }" aria-hidden="true">{{ avatarLabel(comment.name) }}</div>
         <div class="comment-main">
           <div class="comment-meta">
             <strong>{{ comment.name }}</strong>
-            <span v-if="comment.authorId === viewerId" class="own-label muted">你</span>
+            <span v-if="comment.authorId === viewerId" class="own-label muted">You</span>
             <time class="muted" :datetime="new Date(comment.createdAt).toISOString()">{{ formatDate(comment.createdAt) }}</time>
           </div>
           <div class="comment-content">{{ comment.content }}</div>
           <button v-if="comment.authorId === viewerId" type="button" class="text-button delete-button" :disabled="!!deleting || submitting || loading" @click="deleteComment(comment)">
-            {{ deleting === comment.id ? '删除中……' : '删除' }}
+            {{ deleting === comment.id ? 'Deleting…' : 'Delete' }}
           </button>
         </div>
       </article>
     </div>
-    <button v-if="nextCursor" type="button" class="load-more" :disabled="loading || submitting || !!deleting" @click="loadComments(true)">{{ loading ? '加载中……' : '加载更多评论' }}</button>
+    <button v-if="nextCursor" type="button" class="load-more" :disabled="loading || submitting || !!deleting" @click="loadComments(true)">{{ loading ? 'Loading…' : 'Load more comments' }}</button>
   </section>
 </template>
 
@@ -276,8 +275,12 @@ onBeforeUnmount(() => controller.abort())
   cursor: pointer;
 }
 
-.comment-form input:focus-visible,
-.comment-form textarea:focus-visible,
+.comment-form input:focus,
+.comment-form textarea:focus {
+  border-color: color-mix(in srgb, var(--primary) 50%, var(--common-bd));
+  outline: none;
+}
+
 .comments button:focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 3px;

@@ -2,7 +2,7 @@ export const siteConfig = {
   author: 'Nash Aiomos',
   title: 'Nash Aiomos',
   description: 'My site.',
-  lang: 'zh-CN',
+  lang: 'en',
 }
 
 export const subNavLinks = [
