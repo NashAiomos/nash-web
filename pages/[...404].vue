@@ -1,5 +1,6 @@
 <template>
-  <section class="prose ">
-    <ContentDoc path="404" class="slide-enter-content" />
+  <section class="prose slide-enter-content">
+    <h1>Oops! 404</h1>
+    <p>You look like you're looking for something that doesn't exist</p>
   </section>
 </template>

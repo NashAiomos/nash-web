@@ -1,10 +1,7 @@
 <script setup lang="ts">
 const searchValue = ref('')
 
-// Include the search index in the static payload: GitHub Pages has no query server.
-const { data: articles } = await useAsyncData('search-articles', () =>
-  queryContent().only(['_path', 'title', 'description', 'tags', 'date']).find(),
-)
+const { data: articles, error } = await useArticleIndex()
 
 const queryResult = computed(() => {
   const term = searchValue.value.trim().toLocaleLowerCase()
@@ -23,7 +20,8 @@ const queryResult = computed(() => {
   <h1 class="text-title mb-2em font-bold">
     Search
   </h1>
-  <div class="slide-enter-content">
+  <ContentLoadError v-if="error" />
+  <div v-else class="slide-enter-content">
     <input v-model="searchValue" placeholder="Search post title / description / tag" class="search-input mb-2em">
     <ul>
       <cell

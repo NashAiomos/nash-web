@@ -2,19 +2,10 @@
 import { getIncludedYearPosts } from '@/utils'
 
 const { data: posts, error } = await useAsyncData('post-list', getIncludedYearPosts)
-
-function reloadPosts() {
-  reloadNuxtApp({ force: true })
-}
 </script>
 
 <template>
-  <p v-if="error" role="alert">
-    Couldn't load posts.
-    <button type="button" class="underline" @click="reloadPosts">
-      Reload page
-    </button>
-  </p>
+  <ContentLoadError v-if="error" />
   <ul v-else>
     <template v-for="(article, index) in posts" :key="article._path ?? article.year">
       <div
