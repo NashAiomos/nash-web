@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: 游击队开放访问宣言(Guerilla Open Access Manifesto)
 date: 2023-06-20
 categories:

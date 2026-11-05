@@ -11,7 +11,7 @@ const props = defineProps(['article'])
       <div class="flex items-center">
         <i class="i-icon-park-outline-calendar m-r-0.5em" /> {{ formattedDate(props.article.date) }}
       </div>
-      <div class="flex gap-2 m-t-0.5em">
+      <div class="flex flex-wrap gap-2 m-t-0.5em">
         <NuxtLink
           v-for="tag in props.article.tags" :key="tag" :to="`/tags/${tag}`"
         >

@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: 后知后觉
 date: 2021-12-27
 categories:
@@ -66,15 +67,15 @@ tags:
 
 目前已经看到的科技水平的发展：
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/c3c924b9bf93f1b08ec591f8d4f473de.png">
+<img alt="科技水平随时间逐渐加速上升的曲线" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/c3c924b9bf93f1b08ec591f8d4f473de.png">
 
 以现在的视角预测未来科技走向:
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/eed595f94d665b63dd2e446f6a3d8d3b.png">
+<img alt="以历史时间节点展示科技增长加速的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/eed595f94d665b63dd2e446f6a3d8d3b.png">
 
 实际上未来的趋势是这样的：
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/40826f2933f48fe08299652ab3452da3.png">
+<img alt="科技增长曲线在后期陡峭上升" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/40826f2933f48fe08299652ab3452da3.png">
 
 我们变得更好之后，我们就能更好地变得更好。而当我们能更好地变得更好之后，我们也就能更快地变得更好。
 
@@ -106,7 +107,7 @@ tags:
 包括每个国家、每个行业、每个人的未来都将被元宇宙深刻影响，元宇宙终会改写人类未来简史。
 <br>
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/cd4d11d66c20829973e6d3620752aa6b.png">
+<img alt="技术从初期热潮、泡沫破裂到成熟发展的曲线" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2022/12/13/cd4d11d66c20829973e6d3620752aa6b.png">
 
 <br>
 

@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: 花一年时间写的书
 date: 2024-06-01
 categories:

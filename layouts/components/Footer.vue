@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { siteConfig } from '@/site.config'
+import { withBase } from 'ufo'
+
+const rssUrl = withBase('/rss.xml', useRuntimeConfig().app.baseURL)
 </script>
 
 <template>
@@ -11,6 +14,7 @@ import { siteConfig } from '@/site.config'
         </a>
         2020-PRESENT © {{ siteConfig.author }}
       </span>
+      <a :href="rssUrl" class="link text-sm">RSS</a>
     </div>
   </footer>
 </template>

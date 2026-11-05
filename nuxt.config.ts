@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     // 确保所有路由都被预渲染
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/article-index.json']
+      routes: ['/', '/p/', '/article-index.json', '/rss.xml']
     }
   },
 
@@ -61,6 +61,7 @@ export default defineNuxtConfig({
       // 添加链接标签以确保CSS正确加载
       link: [
         { rel: 'icon', href: '/nash-web/favicon.ico' },
+        { rel: 'alternate', type: 'application/rss+xml', title: siteConfig.title, href: '/nash-web/rss.xml' },
       ]
     },
   },

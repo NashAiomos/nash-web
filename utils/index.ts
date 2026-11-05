@@ -7,23 +7,18 @@ export function formattedDate(date: string) {
   return formattedResult
 }
 
-export function insertYearToPosts(posts: any) {
-  let currentYear = -1
-  return posts.reduce(
-    (posts: any, post: any) => {
-      const year = new Date(post.date).getFullYear()
-      if (year !== currentYear && !isNaN(year)) {
-        posts.push({
-          isMarked: true,
-          year,
-        })
-        currentYear = year
-      }
-      posts.push(post)
-      return posts
-    },
-    [],
-  )
+export function groupPostsByYear(posts: any[]) {
+  const groups: { year: number; articles: any[] }[] = []
+  for (const post of posts) {
+    const year = parseISO(post.date).getFullYear()
+    let group = groups[groups.length - 1]
+    if (!group || group.year !== year) {
+      group = { year, articles: [] }
+      groups.push(group)
+    }
+    group.articles.push(post)
+  }
+  return groups
 }
 
 export async function getIncludedYearPosts() {
@@ -32,5 +27,5 @@ export async function getIncludedYearPosts() {
     .only(['_path', 'title', 'date'])
     .sort({ date: -1 })
     .find()
-  return insertYearToPosts(result)
+  return groupPostsByYear(result)
 }

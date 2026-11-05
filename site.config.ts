@@ -1,6 +1,7 @@
 export const siteConfig = {
   author: 'Nash Aiomos',
   title: 'Nash Aiomos',
+  url: 'https://nashaiomos.github.io/nash-web/',
   description: 'My site.',
   lang: 'en',
 }

@@ -3,6 +3,11 @@ import { withoutTrailingSlash } from 'ufo'
 
 const props = defineProps(['article'])
 
+useHead(() => ({
+  title: props.article.title,
+  htmlAttrs: { lang: props.article.lang || 'zh-Hans' },
+}))
+
 function recoverArticle() {
   // Retry stale chunks after client navigation, then let a direct load show the fallback.
   const initialUrl = performance.getEntriesByType('navigation')[0]?.name

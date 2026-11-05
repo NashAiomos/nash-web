@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: 我是从什么时候开始不写代码的
 date: 2026-07-05
 categories:

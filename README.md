@@ -86,15 +86,36 @@ and SHA-256 checksum. All 207 migrated images were downloaded through their new
 public URLs and checked against the original file checksums before updating articles.
 The unrecoverable first image in `content/blog/my-story.md` was removed.
 
-The `r2.dev` address is a rate-limited development endpoint and does not provide
-Cloudflare CDN caching. Bind a custom domain to the bucket for production caching;
-then replace the public URL prefix in the articles and source manifest.
+The page renders committed WebP derivatives from `public/images/optimized/`, served
+by GitHub Pages under the site base path. `assets/data/image-variants.json` maps original
+URLs to 480, 960 and 1440 pixel variants (without upscaling). Browsers choose a variant
+with `srcset`; full-size R2 originals are requested only when opening the lightbox.
+The original dimensions are preserved for layout and existing article zoom styles.
 
-Original downloaded files are kept in the ignored `.image-backup/posts/` directory
-of the local checkout. They are not committed to Git or included in the website build.
-Future image uploads should use unique object keys and a correct image content type.
-Keep Cloudflare credentials out of the repository; the blog needs no credentials to
-display images from their public URLs.
+To regenerate after adding images to `docs/image-sources.json`:
+
+```sh
+pnpm images:optimize
+```
+
+This uses local originals from the ignored `.image-backup/posts/` directory, or downloads
+missing originals sequentially from R2, verifies their SHA-256 checksums, then generates
+the derivatives. Commit both the generated WebP files and the variant manifest. Normal
+builds use these committed files and require no R2 credentials or image downloads.
+
+Write descriptive `alt` text for content images. Use the optional `caption` attribute
+when a visible caption is needed; an absent caption produces no empty `figcaption`.
+Set each article's frontmatter `lang` to `zh-Hans` or `en`.
+
+The `r2.dev` endpoint still serves the full-size lightbox originals. Binding it to a
+custom domain requires a domain owned by the site author and Cloudflare configuration;
+no production domain is configured in this repository. After binding one, update the
+URL prefix in articles and `docs/image-sources.json`, then regenerate the variant map.
+Keep Cloudflare credentials out of the repository.
+
+The generated RSS feed is available at `/nash-web/rss.xml` and is advertised in the
+page head. Static `/p/` navigation uses Nuxt's generated meta refresh to `/nash-web/blog`;
+GitHub Pages cannot emit the server-side HTTP 301 response itself.
 
 ## Icon
 - [icon-park-outline](https://icones.js.org/collection/icon-park-outline)

@@ -9,7 +9,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint . --fix",
     "stylelint:fix": "npx stylelint **/*.{css,scss,vue,less,html} --fix",
-    "test:comments": "node workers/comments/test/integration.mjs"
+    "test:comments": "node workers/comments/test/integration.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "@iconify-json/icon-park-outline": "^1.1.12",
@@ -22,23 +23,24 @@
     "@nuxt/content": "^2.9.0",
     "@nuxtjs/stylelint-module": "^5.1.0",
     "@types/node": "^20.9.3",
+    "@typescript-eslint/parser": "^8.0.0",
     "@unocss/nuxt": "66.12.0",
     "@vueuse/core": "^10.6.1",
     "@vueuse/nuxt": "^10.6.1",
     "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.32.0",
     "lint-staged": "^15.1.0",
     "nuxt": "^3.15.4",
+    "postcss-html": "^1.8.0",
     "sass": "^1.69.5",
+    "sharp": "0.35.5",
     "simple-git-hooks": "^2.9.0",
     "stylelint": "^15.11.0",
-    "typescript": "^5.0.0",
-    "@typescript-eslint/parser": "^8.0.0",
-    "eslint-plugin-vue": "^9.32.0",
-    "vue-eslint-parser": "^9.4.3",
-    "stylelint-config-standard-scss": "^11.1.0",
     "stylelint-config-recommended-vue": "1.5.0",
-    "postcss-html": "^1.8.0",
-    "unocss": "66.12.0"
+    "stylelint-config-standard-scss": "^11.1.0",
+    "typescript": "^5.0.0",
+    "unocss": "66.12.0",
+    "vue-eslint-parser": "^9.4.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

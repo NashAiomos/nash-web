@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: Mora往事：守护数据宇宙背后隐匿的权力
 en-title: mora
 date: 2023-04-03
@@ -25,7 +26,7 @@ tags:
 
 宇宙有 138 亿年历史，地球有 45 亿年历史，而人类只有 600 万年历史。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/53023168f8c977ffe317eba0eda1ecf1.png" style="zoom: 67%;" />
+<img alt="从宇宙尺度逐步放大到人类世界的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/53023168f8c977ffe317eba0eda1ecf1.png" style="zoom: 67%;" />
 
 如果把地球 45 亿年的漫长历史压缩成普通的一天。那么生命起始得很早，第一批最简单的单细胞生物大约出现在凌晨 4 点钟。中午 11 点 15 分，蓝藻开始释放氧气，地球的氧气含量逐渐上升。直到下午 3 点 45 分，地球上才出现多细胞生物。
 
@@ -38,7 +39,7 @@ tags:
 <br/>
 <br/>
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/cf3eeb4edb7cbe4b7b26047be587370f.png" style="zoom:23%;" />
+<img alt="互联网应用数量随时间快速增长的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/cf3eeb4edb7cbe4b7b26047be587370f.png" style="zoom:23%;" />
 
 按照这个比例来看，一个人一生的时间更是微不足道。
 
@@ -53,7 +54,7 @@ tags:
 
 那如果说，我不想被忘记，我怎样才能**永远**被记住？可能得成为伟人、名人，才能载入史册，但这也不太可能。如果是在三五十年以前，是不太可能。但在现在，互联网会记录下你的文章、你的评论、你唱的歌、分享的照片、你和对象的甜蜜记录、游戏记录等等等等。互联网每天产生的信息量远超从前纸笔记录的信息，每个人都会在互联网上留下他存在过的记录。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/51715e713d9ee78a13f680f904b8397b.png" style="zoom:22%;" />
+<img alt="以不同大小的圆表示数据规模的比较图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/51715e713d9ee78a13f680f904b8397b.png" style="zoom:22%;" />
 
 <br/>
 <br/>
@@ -62,11 +63,11 @@ tags:
 
 比如抖音是这样的：
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/e559e37c0169bf7e8f771765de2d4c30.png" style="zoom:25%;" />
+<img alt="用户的数据集中进入平台服务器的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/e559e37c0169bf7e8f771765de2d4c30.png" style="zoom:25%;" />
 
 每个公司的服务器为用户提供自家的网络服务：
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/02137377b9a13aeaa2756bd8f4a29b30.png" style="zoom:20%;" />
+<img alt="多个互联网平台各自连接用户并形成独立数据中心" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/02137377b9a13aeaa2756bd8f4a29b30.png" style="zoom:20%;" />
 
 数据在带来信息时代便利的同时亦会引发数据滥用、个人隐私泄露、企业商业秘密受侵犯等诸多问题。你的数据被一股脑地传进了他们的服务器里。他们控制着服务器，怎么处理服务器里的数据，人家说了算。虽然工程师们负责只研究 AI 推荐算法，不偷看你的数据。你喜欢什么只有 AI 知道，存储在服务器中，而且那么多用户的数据也看不过来。但是当他们想要查找某个人的时候，管理层还是可看到各种数据的。
 
@@ -86,7 +87,7 @@ tags:
 
 我们已经知道的有棱镜计划，2018 年 Facebook 上亿用户数据泄露事件，2020 年 7 月 Amazon 因违反欧盟《一般数据保护条例》被欧盟隐私监管机构处以 7.46 亿欧元罚款，这也是欧盟有史以来最大的数据隐私泄露罚款。国内的美团、饿了么等外卖平台也曾被爆出用户资料遭泄露、倒卖，精确到了订餐内容、地址等私密信息；李彦宏：中国人对数据隐私可以更开放，愿用隐私换效率 ...... 
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/c6ece2706d9d6f41628d923a49090ccf.png" style="zoom:75%;" />
+<img alt="有关隐私和数据事件的搜索结果截图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/c6ece2706d9d6f41628d923a49090ccf.png" style="zoom:75%;" />
 
 而且他们觉得不好的内容、对他们不利就可以直接删掉，不用你同意。（当然，非法内容肯定要删掉的）
 
@@ -99,9 +100,9 @@ tags:
 
 就在上周，2023 年 3 月 21 日，拼多多被谷歌强制下架，并提示已安装拼多多的用户尽快将其卸载。这还是谷歌第一次提示用户卸载一个 App 。随后著名反病毒软件实验室卡巴斯基证实了拼多多利用安卓系统漏洞肆意收集用户信息、破解系统屏蔽机制、篡改手机系统记录、隐匿自己行踪、常驻系统后台运行监控手机、逃避系统清理进程、读取手机输入法信息的情况。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/610310796b98fab9614efe0185b5d161.png" style="zoom:25%;" />
+<img alt="多个互联网平台数据与隐私相关新闻的拼图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/610310796b98fab9614efe0185b5d161.png" style="zoom:25%;" />
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/f7e387d9b99459f33d6852dfdc82dcca.png" style="zoom:67%;" />
+<img alt="有关应用权限和信息访问问题的说明截图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/f7e387d9b99459f33d6852dfdc82dcca.png" style="zoom:67%;" />
 
 靠！想存个信息这么难，还不如刻在石头上呢！
 
@@ -130,7 +131,7 @@ tags:
 
 其实，现在还有一种新兴技术可以解决这个问题：区块链。
 
-但不是所有的区块链都能解决这个问题的。比如以太坊，它所有的数据都是公开的，链上的数据没有秘密可言，只做到了把数据权交给用户，并没有对用户数据保密。而 IC（互联网计算机）则上的智能合约可以选择公开数据，也可以不公开数据。更多关于 IC （互联网计算机）的内容可以看我之前的文章：[造梦家的冒险之旅](https://zur5z-byaaa-aaaag-aaxeq-cai.ic0.app/blog/造梦家的冒险之旅)。
+但不是所有的区块链都能解决这个问题的。比如以太坊，它所有的数据都是公开的，链上的数据没有秘密可言，只做到了把数据权交给用户，并没有对用户数据保密。而 IC（互联网计算机）则上的智能合约可以选择公开数据，也可以不公开数据。更多关于 IC （互联网计算机）的内容可以看我之前的文章：[造梦家的冒险之旅](/p/blog/journey-of-the-dream-weaver-zh)。
 
 <br/>
 <br/>
@@ -169,7 +170,7 @@ Mora 想要解决的问题是：
 
 当公司营收逐渐下滑，割韭菜在所难免。比如百度网盘限速、比如 ...... 如下图。2023 年 4 月 2 日。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/c83a29853a3c5eba38a70c92871702e6.png" style="zoom:77%;" />
+<img alt="有关视频创作者停更的新闻搜索结果" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/c83a29853a3c5eba38a70c92871702e6.png" style="zoom:77%;" />
 
 <br/>
 <br/>
@@ -202,7 +203,7 @@ Mora 用区块链的去中心化方式撮合创作者和读者两方，读者付
 
 顶层由一个 DAO 智能合约控制下属的三个部分：星球治理、用户索引、辅助 canister 。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/c8c4e5c1a3cb32f8824542c907b9f87d.png" style="zoom:25%;" />
+<img alt="Mora 架构图：DAO 连接星球管理、用户索引和独立应用容器" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/c8c4e5c1a3cb32f8824542c907b9f87d.png" style="zoom:25%;" />
 
 Web3 更多是强调点对点的关系，而不是点对平台的关系。一个用户可以创建多个星球。每个内容维度和主题可以有独立的星球（智能合约）。
 
@@ -210,11 +211,11 @@ Web3 更多是强调点对点的关系，而不是点对平台的关系。一个
 
 Mora 协议完全开放 API ，你想导出文章？没问题。本来就是自己的星球里导出嘛，星球就是一个 “ 去中心化服务器 ” 。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/411e41f521d93b8ed6534367225ff78c.png" style="zoom:30%;" />
+<img alt="一个用户拥有多个星球的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/411e41f521d93b8ed6534367225ff78c.png" style="zoom:30%;" />
 
 星球可以存储文章，完全由用户控制。星球的创造者也可以把自己的控制权转移给别人。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/69039a81328292d1004c80df7766b1df.png" style="zoom:25%;" />
+<img alt="Mora 星球治理与内容、评论等功能的关系图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/69039a81328292d1004c80df7766b1df.png" style="zoom:25%;" />
 
 每个星球是解耦的。不与任何平台绑定，星球独立运行。星球里公开的数据任何人都可以访问，包括 Mora 的前端也需要把所有星球访问一遍来找到公开的文章，再按时间顺序显示在一个页面里。任何人都能自己做一个前端抓取公开内容。
 
@@ -224,11 +225,11 @@ Mora 协议完全开放 API ，你想导出文章？没问题。本来就是自�
 
 Mora 还做了内容版权的去中心化证明，文章在发布时可以同时发布到 AR 上，永久存入区块链。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/573d8b42e381098e4322711ae4affe02.png" style="zoom:30%;" />
+<img alt="Mora 用户索引记录用户与容器之间关系的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/573d8b42e381098e4322711ae4affe02.png" style="zoom:30%;" />
 
 用户索引主要负责把 Mora 上的每一个用户的信息记入区块链，比如用户名、订阅了哪些星球、收藏了哪些文章等。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/e2e7f3a7b4e6a8467a24fe3bbf0ca5b6.png" style="zoom:30%;" />
+<img alt="用户容器关联订阅星球、拥有星球和收藏文章" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/e2e7f3a7b4e6a8467a24fe3bbf0ca5b6.png" style="zoom:30%;" />
 
 用户罐仅维护用户在协议中的索引关系，不具备具体功能。如订阅了谁，如拥有的星球，如收藏了哪篇文章。当用户罐存满数据时，自动创建新的用户罐。
 
@@ -244,11 +245,11 @@ Mora 还做了内容版权的去中心化证明，文章在发布时可以同时
 
 比如现在的 Web2 应用都是孤立的，每家公司之间的数据库并不共享，是一座座数据孤岛，每家公司都想给自己拉拢用户。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/16327ededcfb14a6eda45e02f86aa0f6.png" style="zoom:25%;" />
+<img alt="各互联网平台拥有独立服务器集群的示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/16327ededcfb14a6eda45e02f86aa0f6.png" style="zoom:25%;" />
 
 而 Web3 社交建立在开放的区块链平台上。最终的目的是打造全网公共的社交数据库，包括 data ，社交图谱等。从而提高互联网效率。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/d6dce76e7e1e009763fde2fd765e12eb.png" style="zoom:21%;" />
+<img alt="用户连接到分布式互联节点的网络示意图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/d6dce76e7e1e009763fde2fd765e12eb.png" style="zoom:21%;" />
 
 在打通数据库的同时也解决了数据资产化的问题。你的数据其实也是一种资产。把资产交给别人托管肯定不如自己拿在手里放心。
 
@@ -264,7 +265,7 @@ Mora 还做了内容版权的去中心化证明，文章在发布时可以同时
 
 细节上经常是改来改去。因为在区块链上部署的应用和传统的 Web2 应用还不太一样。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/6cb8d6af6ee9e430d06d351e4a762a07.jpeg" style="zoom:35%;" />
+<img alt="讨论开发和代码优化的聊天截图" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/6cb8d6af6ee9e430d06d351e4a762a07.jpeg" style="zoom:35%;" />
 
 区块链是一个开放的系统：世界各地的人都可以随时加入或退出、并靠共识算法让大家的数据保持一致、一个共创共建共享的去中心化网络。人们只要在 DAO 通过投票，就可以加入 IC 网络。共识算法会让全球的服务器达成一致，共同记录每一次消息。有大家的 “ 数据备份 ” ，便有了传说中区块链 “ 不可篡改 ” 的特性，实际上就是少数服从多数，没法跟所有人耍赖。
 
@@ -277,21 +278,21 @@ Mora 还做了内容版权的去中心化证明，文章在发布时可以同时
 
 为了赶进度上线，昆哥和工程师们天天测试、修改 bug 到凌晨。上线前夕，昆哥工作桌面照片：
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/1d7c82ed83f059758c21a837eea67d56.jpeg" style="zoom:40%;" />
+<img alt="桌面上的多台显示器、键盘和电脑" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/1d7c82ed83f059758c21a837eea67d56.jpeg" style="zoom:40%;" />
 
 <br/>
 <br/>
 
 昆哥平时也喜欢折腾，这是他的给鱼缸做的循环系统：😂
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/28116c867ac51288249f11afa17447cd.jpeg" style="zoom:33%;" />
+<img alt="连接电源与数据线的计算机硬件" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/28116c867ac51288249f11afa17447cd.jpeg" style="zoom:33%;" />
 
 <br/>
 <br/>
 
 Mora 官网上线倒计时 2 天：
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/38de1686cb7b32955e64daa93e58d541.jpeg" style="zoom:35%;" />
+<img alt="Mora 上线倒计时网页，背景是一颗发光星球" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/38de1686cb7b32955e64daa93e58d541.jpeg" style="zoom:35%;" />
 
 经历了几周的反复打磨。Mora 系统在 3 月 29 日 20 点正式上线。
 
@@ -306,7 +307,7 @@ Web 3.0 的应用仍处于非常早期的阶段。但我们可以预见，这将
 
 一些微不足道的东西可能正在潜移默化地改变人们的生活方式，尽管它们最初的样子并不完美。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/e943e8196247fa9369b70043a108f356.png" style="zoom: 20%;" />
+<img alt="两个小人坐在蓝色星球上仰望星空的插画" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/e943e8196247fa9369b70043a108f356.png" style="zoom: 20%;" />
 
 **在太阳升起的过程中我从未帮助过什么，可是不要怀疑，在太阳升起的时候你正好在场，这才是最重要的。——《瓦尔登湖》**
 
@@ -326,7 +327,7 @@ Web 3.0 的应用仍处于非常早期的阶段。但我们可以预见，这将
 
 宇宙那么大，能遇到 [Mora](https://mora.app) 何尝不是一种幸运。
 
-<img src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/6b2f90fe9e6124dcb57e5aca2fcb733f.png" style="zoom:57%;" />
+<img alt="介绍小行星 1257 的百科页面" src="https://pub-61f1a97788f1425894bfc0ead4718906.r2.dev/images/posts/2023/04/03/6b2f90fe9e6124dcb57e5aca2fcb733f.png" style="zoom:57%;" />
 
 <br/>
 <br/>

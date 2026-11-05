@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useHead({ title: 'Projects' })
+
 import { projectList } from '@/site.config'
 </script>
 

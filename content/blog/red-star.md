@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: 红星
 _path: /novel/red-star
 date: 2022-08-12

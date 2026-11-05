@@ -2,41 +2,85 @@
 import { useEventListener } from '@vueuse/core'
 
 const props = defineProps(['toc'])
-const currentId = ref()
+const currentId = ref('')
 
 onMounted(() => {
   function handleScroll() {
-    const headings = document.querySelectorAll('h2, h3')
-    for (let i = 0; i < headings.length; i++) {
-      const top = headings[i].getBoundingClientRect().top
-      if (top >= 0 && top <= 100)
-        currentId.value = headings[i].id
+    const links = (props.toc?.links ?? []).flatMap((heading: any) => [heading, ...(heading.children ?? [])])
+    const headings = links.map((heading: any) => document.getElementById(heading.id)).filter(Boolean) as HTMLElement[]
+    let active = headings[0]?.id || ''
+    for (const heading of headings) {
+      if (heading.getBoundingClientRect().top <= 120) active = heading.id
     }
+    currentId.value = active
   }
-  useEventListener(document, 'scroll', handleScroll)
+  useEventListener(window, 'scroll', handleScroll, { passive: true })
+  useEventListener(window, 'resize', handleScroll)
+  watch(() => props.toc, () => nextTick(handleScroll), { deep: true })
+  handleScroll()
 })
 </script>
 
 <template>
-  <div class="absolute top-0 left-full h-full pl-2em hidden xl:block">
-    <nav class="sticky top-14 w-25em">
+  <div v-if="props.toc?.links?.length" class="doc-toc">
+    <nav aria-label="Table of contents">
       <ul>
-        <li v-for="(h2, h2Index) in props.toc.links" :key="h2Index" class="list-none relative  ">
-          <span class="flex items-center">
-            <span v-if="h2.id === currentId" class="text-1em absolute right-full i-icon-park-outline-right-small " />
-            <a :href="`#${h2.id}`">  {{ h2.text }}</a>
-          </span>
-          <template v-if="h2.children && h2.children.length > 0">
-            <ul v-for="(h3, h3Index) in h2.children" :key="h3Index">
-              <li class="list-none relative flex items-center">
-                <div v-if="h3.id === currentId" class="absolute right-full i-icon-park-outline-right-small" />
-                <a :href="`#${h3.id}`">
-                  {{ h3.text }}</a>
-              </li>
-            </ul>
-          </template>
+        <li v-for="h2 in props.toc.links" :key="h2.id">
+          <a :href="`#${h2.id}`" :aria-current="h2.id === currentId ? 'location' : undefined">{{ h2.text }}</a>
+          <ul v-if="h2.children?.length">
+            <li v-for="h3 in h2.children" :key="h3.id">
+              <a :href="`#${h3.id}`" :aria-current="h3.id === currentId ? 'location' : undefined">{{ h3.text }}</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>
   </div>
 </template>
+
+<style scoped>
+.doc-toc {
+  display: none;
+}
+
+@media (width >= 1280px) {
+  .doc-toc {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: block;
+    width: min(22rem, calc((100vw - 100%) / 2 - 1rem));
+    height: 100%;
+    padding-left: 2rem;
+  }
+}
+
+nav {
+  position: sticky;
+  top: 3.5rem;
+  max-height: calc(100vh - 5rem);
+  overflow: auto;
+  overflow-wrap: anywhere;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul ul {
+  padding-left: 1rem;
+}
+
+a {
+  display: block;
+  padding: 0.2rem 0.5rem;
+  border-left: 2px solid transparent;
+}
+
+a[aria-current] {
+  font-weight: bold;
+  border-left-color: currentcolor;
+}
+</style>

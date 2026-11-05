@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useHead({ title: 'Search' })
+
 const searchValue = ref('')
 
 const { data: articles, error } = await useArticleIndex()
@@ -22,7 +24,8 @@ const queryResult = computed(() => {
   </h1>
   <ContentLoadError v-if="error" />
   <div v-else class="slide-enter-content">
-    <input v-model="searchValue" placeholder="Search post title / description / tag" class="search-input mb-2em">
+    <label for="post-search" class="sr-only">Search post title, description or tag</label>
+    <input id="post-search" type="search" v-model="searchValue" placeholder="Search post title / description / tag" class="search-input mb-2em">
     <ul>
       <cell
         v-for="(article, index) in queryResult" :key="article._path" :article="article"

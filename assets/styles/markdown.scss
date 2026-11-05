@@ -115,7 +115,8 @@
       transform: scale(0.8);
     }
 
-    &:hover .code-tools {
+    &:hover .code-tools,
+    &:focus-within .code-tools {
       opacity: 0.8;
       transform: scale(1);
     }
@@ -215,5 +216,12 @@
     &::after {
       content: ']';
     }
+  }
+}
+
+@media (hover: none) {
+  .prose .code-wrap .code-tools {
+    opacity: 0.8;
+    transform: none;
   }
 }

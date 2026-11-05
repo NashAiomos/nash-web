@@ -5,9 +5,9 @@ import { navLinks } from '@/site.config'
 <template>
   <nav class="flex items-center gap-1.5em text-lg max-w-70ch m-auto">
     <!-- <Avatar /> -->
-    <NuxtLink v-for="link in navLinks" :key="link.path" class="hover" :title="link.title" :to="link.path">
+    <NuxtLink v-for="link in navLinks" :key="link.path" class="hover" :title="link.title" :aria-label="link.title" :to="link.path">
       <span class="hidden md:inline">{{ link.title }}</span>
-      <div :class="link.icon" class="md:hidden" />
+      <div :class="link.icon" class="md:hidden" aria-hidden="true" />
     </NuxtLink>
     <DarkMode class="m-l-auto" />
   </nav>

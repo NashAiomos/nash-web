@@ -49,9 +49,9 @@ export default defineComponent({
   <div class="code-wrap">
     <slot />
     <div v-if="isSupported" class="code-tools">
-      <button>
+      <button type="button" :aria-label="copied ? 'Copied' : 'Copy code'" @click="copyCode()">
         <div v-if="copied" class="i-icon-park-outline-check" />
-        <div v-else class="i-icon-park-outline-copy" @click="copyCode()" />
+        <div v-else class="i-icon-park-outline-copy" />
       </button>
     </div>
   </div>

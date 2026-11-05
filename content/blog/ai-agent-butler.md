@@ -1,4 +1,5 @@
 ---
+lang: zh-Hans
 title: Master & Sub agent
 date: 2026-01-31
 categories:

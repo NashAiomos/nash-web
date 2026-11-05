@@ -1,4 +1,6 @@
 <script setup lang="ts">
+useHead({ title: 'Tags' })
+
 const { data: posts, error } = await useArticleIndex()
 
 const tagsContent = computed(() => (posts.value ?? [])

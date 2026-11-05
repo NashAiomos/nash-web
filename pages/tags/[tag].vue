@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const route = useRoute()
 const tag = computed(() => String(route.params.tag ?? ''))
+useHead(() => ({ title: `Tags / ${tag.value}` }))
 const { data: articles, error } = await useArticleIndex()
 const posts = computed(() =>
   (articles.value ?? []).filter(article => article.tags?.includes(tag.value)),

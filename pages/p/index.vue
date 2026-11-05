@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const router = useRouter()
-
-router.replace('/blog')
+await navigateTo('/blog', { redirectCode: 301 })
 </script>
+
+<template>
+  <p>Continue to <NuxtLink to="/blog">Blog</NuxtLink>.</p>
+</template>
