@@ -23,6 +23,12 @@ export default defineNuxtConfig({
     '@nuxtjs/stylelint-module',
   ],
 
+  runtimeConfig: {
+    public: {
+      commentsApiUrl: 'https://nash-web-comments.nashaiomos.workers.dev',
+    },
+  },
+
   app: {
     baseURL: '/nash-web/', // 确保这个路径正确
     buildAssetsDir: '/assets/', // 设置资源目录

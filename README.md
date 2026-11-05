@@ -11,7 +11,7 @@
 - Tag Category View Function
 - Article search function
 - Integrate website configuration to reduce the mental burden of modification
-- Comment function based on [Giscus](https://giscus.app/zh-CN)
+- Independent anonymous comments with Cloudflare Workers and D1; no GitHub login required
 
 ## Setup
 
@@ -57,7 +57,20 @@ You should modify the following files
 
 - site.config.ts - base site config
 - content - your article folder
-- `pages\p\[...post].vue` - comment config, to [Giscus](https://giscus.app/zh-CN)
+- [workers/comments/README.md](workers/comments/README.md) - independent comment service, local development and deployment
+
+## Comments
+
+Article comments are stored in the dedicated Cloudflare D1 database and served
+by the blog's own Worker API. Visitors can choose a nickname, post plain-text
+comments and delete their own comments. A random credential saved in the browser
+recognizes returning visitors without a GitHub account or device fingerprinting.
+Default avatars are generated locally from the visitor ID and nickname.
+
+Clearing browser storage or switching browsers creates a new visitor. Input
+limits, a honeypot and server-side rate limits help reduce spam. See
+[the comments guide](workers/comments/README.md) for the API, testing, deployment
+and owner moderation instructions.
 
 ## Article images
 

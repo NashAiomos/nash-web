@@ -15,3 +15,7 @@ dist
 
 # Original images backed up locally after R2 migration
 /.image-backup/
+
+# Local Worker databases and secrets
+.wrangler/
+.dev.vars*

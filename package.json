@@ -8,10 +8,10 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint . --fix",
-    "stylelint:fix": "npx stylelint **/*.{css,scss,vue,less,html} --fix"
+    "stylelint:fix": "npx stylelint **/*.{css,scss,vue,less,html} --fix",
+    "test:comments": "node workers/comments/test/integration.mjs"
   },
   "dependencies": {
-    "@giscus/vue": "^2.3.0",
     "@iconify-json/icon-park-outline": "^1.1.12",
     "@iconify-json/simple-icons": "^1.1.79",
     "@parcel/watcher": "^2.5.1",

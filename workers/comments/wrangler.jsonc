@@ -1,0 +1,23 @@
+{
+  "name": "nash-web-comments",
+  "main": "src/index.mjs",
+  "account_id": "5b9bfea71bd4e95dd8dabb5db909f024",
+  "compatibility_date": "2026-11-05",
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "ENVIRONMENT": "production",
+    "ALLOWED_ORIGINS": "https://nashaiomos.github.io"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "nash-web-comments",
+      "database_id": "ddcab070-8cab-4b9c-b0de-321681fae336",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
