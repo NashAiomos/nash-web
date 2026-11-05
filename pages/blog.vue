@@ -1,5 +1,3 @@
 <template>
-  <sub-nav />
-
-  <post-list category="blog" />
+  <post-list />
 </template>

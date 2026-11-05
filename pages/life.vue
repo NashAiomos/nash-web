@@ -1,5 +1,5 @@
-<template>
-  <sub-nav />
-
-  <post-list category="life" />
-</template>
+<script setup lang="ts">
+definePageMeta({
+  middleware: () => navigateTo('/blog', { redirectCode: 301, replace: true }),
+})
+</script>

@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     // 确保所有路由都被预渲染
     prerender: {
       crawlLinks: true,
-      routes: ['/']
+      routes: ['/', '/life', '/novel']
     }
   },
 

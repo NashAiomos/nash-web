@@ -5,21 +5,6 @@ export const siteConfig = {
   lang: 'en',
 }
 
-export const subNavLinks = [
-  {
-    title: 'Blog',
-    path: '/blog',
-  },
-  {
-    title: 'Life',
-    path: '/life',
-  },
-  {
-    title: 'Novel',
-    path: '/novel',
-  },
-]
-
 export const navLinks = [
   {
     title: 'Blog',

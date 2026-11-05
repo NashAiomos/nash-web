@@ -1,10 +1,7 @@
 <script setup lang="ts">
 import { getIncludedYearPosts } from '@/utils'
 
-const props = defineProps<{ category: string }>()
-const { data: posts, error } = await useAsyncData(`post-list:${props.category}`, () =>
-  getIncludedYearPosts(props.category),
-)
+const { data: posts, error } = await useAsyncData('post-list', getIncludedYearPosts)
 
 function reloadPosts() {
   reloadNuxtApp({ force: true })
@@ -19,7 +16,7 @@ function reloadPosts() {
     </button>
   </p>
   <ul v-else>
-    <template v-for="(article, index) in posts" :key="article._path">
+    <template v-for="(article, index) in posts" :key="article._path ?? article.year">
       <div
         v-if="article.isMarked" class="relative pointer-events-none select-none h-20"
         slide-enter :style="{ '--stagger': index + 1 }"
