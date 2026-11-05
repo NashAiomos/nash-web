@@ -14,8 +14,8 @@ I’m always learning and exploring topics like product design, game, software a
 <strong>Contact me: </strong>🚩
 
 <ul>
-<li>📪 Email:&nbsp;&nbsp; nashaiomos@gmail.com</li>
-<li>🖥️ Github:&nbsp;&nbsp; <a href="https://github.com/NashAiomos">Nash Aiomos</a></li>
-<li>🌐 X:&nbsp;&nbsp; <a href="https://x.com/nashaiomos">@nashaiomos</a></li>
+<li>Email:&nbsp;&nbsp; nashaiomos@gmail.com</li>
+<li>Github:&nbsp;&nbsp; <a href="https://github.com/NashAiomos">Nash Aiomos</a></li>
+<li>X:&nbsp;&nbsp; <a href="https://x.com/nashaiomos">@nashaiomos</a></li>
 </ul>
 
