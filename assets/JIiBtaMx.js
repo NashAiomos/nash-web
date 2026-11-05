@@ -1,0 +1,1 @@
+import{_ as t,c as s,a as o,o as n}from"./BguxIql8.js";const r={},c={class:"prose slide-enter-content"};function _(l,e){return n(),s("section",c,[...e[0]||(e[0]=[o("h1",null,"Oops! 404",-1),o("p",null,"You look like you're looking for something that doesn't exist",-1)])])}const i=t(r,[["render",_]]);export{i as default};
