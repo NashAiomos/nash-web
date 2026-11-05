@@ -1,1 +1,0 @@
-import{_ as r,a as c}from"./BMtRClQY.js";import{_ as n,c as s,b as o,F as _,o as a}from"./lPpC31v6.js";import"./vyhhU9yO.js";import"./CuC6J1Nh.js";import"./CMvwvMJl.js";import"./DdAMiBZU.js";import"./BINkNv7Q.js";import"./BDFA-UtE.js";const m={};function i(p,f){const t=r,e=c;return a(),s(_,null,[o(t),o(e,{category:"life"})],64)}const F=n(m,[["render",i]]);export{F as default};
