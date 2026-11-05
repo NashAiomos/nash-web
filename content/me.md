@@ -11,8 +11,7 @@ I started using AI tools in November 2022, and Claude and ChatGPT are now part o
 
 I’m always learning and exploring topics like product design, game, software architecture, Internet Computer, Ethereum, and smart contracts.
 
-<strong>Contact me: </strong>🚩
-
+<strong>Contact me: </strong>
 <ul>
 <li>Email:&nbsp;&nbsp; nashaiomos@gmail.com</li>
 <li>Github:&nbsp;&nbsp; <a href="https://github.com/NashAiomos">Nash Aiomos</a></li>
