@@ -1,7 +1,13 @@
 <script setup lang="ts">
-import { siteConfig } from '@/site.config'
+import { personSchema, serializeSchema, websiteSchema } from '@/utils/seo'
 
-useHead({ title: siteConfig.title, htmlAttrs: { lang: siteConfig.lang } })
+useHead({
+  script: [{
+    key: 'site-schema',
+    type: 'application/ld+json',
+    innerHTML: serializeSchema({ '@context': 'https://schema.org', '@graph': [personSchema, websiteSchema] }),
+  }],
+})
 </script>
 
 <template>

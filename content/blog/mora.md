@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: Mora往事：守护数据宇宙背后隐匿的权力
+description: 从数据所有权与隐私谈起，记录 Internet Computer 上的 Mora 如何探索去中心化内容发布、个人数据空间和 Web3 社交。
 en-title: mora
 date: 2023-04-03
 categories:

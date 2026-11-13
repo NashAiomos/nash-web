@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 武漢历闲记
+description: Nash 的武汉旅行图文记录：走过长江大桥、汉口与武昌，观察城市风景、历史街区和旅途中的日常生活。
 _path: /life/wuhan
 date: 2022-10-31
 categories:

@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 中子星是谁？
+description: 认识 Nash Aiomos（中子星）：一位喜欢编程、区块链、烹饪与探索的创作者，聊聊自己的兴趣、习惯和日常生活。
 _path: /life/who-i
 date: 2023-02-03
 categories:

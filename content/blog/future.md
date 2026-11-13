@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 后知后觉
+description: 一篇关于机器人、VR、虚拟世界与区块链的未来畅想，思考技术加速发展如何改变工作、生活、资产与互联网体验。
 date: 2021-12-27
 categories:
  - Ponder on the world

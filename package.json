@@ -10,6 +10,8 @@
     "lint": "eslint . --fix",
     "stylelint:fix": "npx stylelint **/*.{css,scss,vue,less,html} --fix",
     "test:comments": "node workers/comments/test/integration.mjs",
+    "test:seo": "node scripts/check-seo.mjs",
+    "images:social": "node scripts/generate-social-card.mjs",
     "images:optimize": "node scripts/optimize-images.mjs"
   },
   "dependencies": {

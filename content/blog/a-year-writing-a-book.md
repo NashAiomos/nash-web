@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 花一年时间写的书
+description: Nash 回顾独立编写 Constellation Book 的一年：把 Internet Computer 学习笔记整理成中英文图解指南，分享技术写作与开源的体会。
 date: 2024-06-01
 categories:
   - Computer technology

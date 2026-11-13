@@ -37,6 +37,17 @@ pnpm generate
 
 The publish directory is `.output/public`. The site uses `/nash-web/` as its URL base path.
 
+## Search and agent discovery
+
+Pages include canonical URLs, individual descriptions, social metadata, and JSON-LD.
+The generated sitemap, RSS, article index, `llms.txt` guide, and full-text `content.json`
+are rebuilt from published content. Run `pnpm test:seo` after `pnpm generate` to verify
+the generated artifacts; deployment CI runs the same check.
+
+See [the SEO guide](docs/seo.md) for Search Console/Bing setup, article metadata, and
+the GitHub Pages root `robots.txt` limitation. `llms.txt` is an optional convenience for
+agents, not a ranking or indexing guarantee.
+
 ## GitHub Pages deployment
 
 In **Settings → Pages**, select **Deploy from a branch**, branch **gh-pages**, folder **/ (root)**.

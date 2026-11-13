@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 我是从什么时候开始不写代码的
+description: 从 Cursor 到 Claude Code，Nash 回顾让 AI 写代码的过程，记录软件开发中自己的角色与工作方式如何变化。
 date: 2026-07-05
 categories:
   - Computer technology

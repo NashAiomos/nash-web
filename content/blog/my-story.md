@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 中子星笔记 (Nash笔名中子星)
+description: Nash（笔名中子星）记录自己接触加密货币、学习区块链与 Rust、探索 Internet Computer 和去中心化应用的经历与思考。
 date: 2022-08-01
 categories:
  - About me

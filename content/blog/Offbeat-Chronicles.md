@@ -1,6 +1,7 @@
 ---
 lang: en
 title: Offbeat Chronicles
+description: Nash Aiomos reflects on travel, learning front-end development and Rust, discovering blockchain, and building apps on the Internet Computer.
 date: 2023-01-13
 categories:
  - About me

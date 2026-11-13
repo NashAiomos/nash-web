@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 红星
+description: Nash 的科幻故事《红星》：少年郑乾创造了一套宇宙模拟器，见证虚拟星球的形成与生命演化，追问创造者与世界的关系。
 _path: /novel/red-star
 date: 2022-08-12
 categories:

@@ -1,7 +1,7 @@
 # Nash Aiomos
 
 Hi! Lovely guys ~ Nice to meet you. I am introverted, but I also enjoy good friends. 
-Geek writer, software engineer, cryptocurrency enthusiast.
+I'm Nash Aiomos, also known as **中子星 (NeutronStar)**: a software engineer, writer, and cryptocurrency enthusiast.
 
 I enjoy programming, reading, hiking, running, climbing, and playing video games. My reading interests range from science fiction and mystery novels to economics, history, business, psychology, and philosophy. When I’ve spent too much time indoors, I like to go for a walk or plan a short trip. Some of my favorite games are Grand Theft Auto V, Don’t Starve, and Sid Meier’s Civilization VI.
 
@@ -10,6 +10,8 @@ I’ve been exploring cryptocurrency and Web3 since 2020. I wrote about how I go
 I started using AI tools in November 2022, and Claude and ChatGPT are now part of my everyday toolkit. I’m interested in AI agents, product experiences, and finding new ways to turn ideas into useful products.
 
 I’m always learning and exploring topics like product design, game, software architecture, Internet Computer, Ethereum, and smart contracts.
+
+Read my [essays on AI agents, Web3, and life](/blog/), explore [IceCube and Constellation Book](/projects/), or browse [articles by topic](/tags/).
 
 <strong>Contact me: </strong>
 <ul>

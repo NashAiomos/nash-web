@@ -3,6 +3,8 @@ import { siteConfig } from '@/site.config'
 import { withBase } from 'ufo'
 
 const rssUrl = withBase('/rss.xml', useRuntimeConfig().app.baseURL)
+const sitemapUrl = withBase('/sitemap.xml', useRuntimeConfig().app.baseURL)
+const agentsUrl = withBase('/llms.txt', useRuntimeConfig().app.baseURL)
 </script>
 
 <template>
@@ -15,6 +17,8 @@ const rssUrl = withBase('/rss.xml', useRuntimeConfig().app.baseURL)
         2020-PRESENT © {{ siteConfig.author }}
       </span>
       <a :href="rssUrl" class="link text-sm">RSS</a>
+      <a :href="sitemapUrl" class="link text-sm">Sitemap</a>
+      <a :href="agentsUrl" class="link text-sm">AI / Agents</a>
     </div>
   </footer>
 </template>

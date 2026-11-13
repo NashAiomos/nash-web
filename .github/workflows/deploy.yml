@@ -33,6 +33,8 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Generate static site
         run: pnpm generate
+      - name: Check SEO and agent content
+        run: pnpm test:seo
       - name: Check publish directory
         run: |
           test -s .output/public/index.html

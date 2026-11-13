@@ -1,11 +1,18 @@
 <script setup lang="ts">
+import { tagPath } from '@/utils/seo'
+
 const route = useRoute()
 const tag = computed(() => String(route.params.tag ?? ''))
-useHead(() => ({ title: `Tags / ${tag.value}` }))
 const { data: articles, error } = await useArticleIndex()
 const posts = computed(() =>
   (articles.value ?? []).filter(article => article.tags?.includes(tag.value)),
 )
+usePageSeo(() => ({
+  title: `${tag.value} — Articles`,
+  description: `Read ${posts.value.length} articles about ${tag.value} by Nash Aiomos (中子星). Browse essays, development notes, and personal experiences.`,
+  path: tagPath(tag.value),
+  noindex: !posts.value.length,
+}))
 </script>
 
 <template>

@@ -1,5 +1,10 @@
 <script setup lang="ts">
-useHead({ title: 'Search' })
+usePageSeo({
+  title: 'Search',
+  description: 'Search Nash Aiomos’s articles by title, description, or topic.',
+  path: '/search/',
+  noindex: true,
+})
 
 const searchValue = ref('')
 

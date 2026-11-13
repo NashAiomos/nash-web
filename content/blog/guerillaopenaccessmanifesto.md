@@ -1,6 +1,9 @@
 ---
 lang: zh-Hans
 title: 游击队开放访问宣言(Guerilla Open Access Manifesto)
+description: Aaron Swartz《游击队开放访问宣言》多语言文本，收录英文、中文等版本，讨论知识共享、学术出版与开放访问。
+author: Aaron Swartz
+authorUrl: https://www.aaronsw.com/
 date: 2023-06-20
 categories:
  - Ponder on the world

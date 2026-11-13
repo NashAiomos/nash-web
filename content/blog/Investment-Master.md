@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 投资大师
+description: 从通货膨胀、黄金和股票聊起，Nash 用插画与故事讨论货币购买力、资产价值和长期投资中的思考。
 date: 2023-01-11
 categories:
  - Informal essay

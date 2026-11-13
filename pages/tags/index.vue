@@ -1,5 +1,11 @@
 <script setup lang="ts">
-useHead({ title: 'Tags' })
+import { tagPath } from '@/utils/seo'
+
+usePageSeo({
+  title: 'Topics',
+  description: 'Browse Nash Aiomos’s writing by topic, including AI, Internet Computer, blockchain, software development, and personal experiences.',
+  path: '/tags/',
+})
 
 const { data: posts, error } = await useArticleIndex()
 
@@ -19,7 +25,7 @@ const tagsContent = computed(() => (posts.value ?? [])
   <ContentLoadError v-if="error" />
   <ul v-else class="flex gap-1em flex-wrap">
     <li v-for="(value, key, index) in tagsContent" :key="key" slide-enter :style="{ '--stagger': index + 1 }" class="px-2 bg-gray-400:20 rd-1">
-      <NuxtLink :to="`/tags/${key}`" class="flex gap-2">
+      <NuxtLink :to="tagPath(String(key))" class="flex gap-2">
         <span class="hover">#{{ key }}</span>
         <span>{{ value }}</span>
       </NuxtLink>

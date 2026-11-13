@@ -1,7 +1,11 @@
 <script setup lang="ts">
-useHead({ title: 'Projects' })
-
 import { projectList } from '@/site.config'
+
+usePageSeo({
+  title: 'Projects — IceCube & Constellation Book',
+  description: 'Explore Nash Aiomos’s projects: IceCube, a social app on the Internet Computer, and Constellation Book, an illustrated guide to ICP architecture and dApp development.',
+  path: '/projects/',
+})
 </script>
 
 <template>

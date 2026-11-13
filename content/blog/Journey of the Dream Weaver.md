@@ -1,6 +1,10 @@
 ---
 lang: en
 title: Journey of the Dream Weaver
+description: The story of Dominic Williams, from building Fight My Monster to founding DFINITY and pursuing the Internet Computer and a decentralized web.
+alternates:
+  en: /p/blog/journey-of-the-dream-weaver/
+  zh-Hans: /p/blog/journey-of-the-dream-weaver-zh/
 date: 2023-03-10
 categories:
  - Ponder on the world

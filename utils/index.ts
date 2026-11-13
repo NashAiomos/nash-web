@@ -23,7 +23,7 @@ export function groupPostsByYear(posts: any[]) {
 
 export async function getIncludedYearPosts() {
   const result = await queryContent()
-    .where({ _file: { $regex: /^blog\// } })
+    .where({ _file: { $regex: /^blog\// }, draft: { $ne: true }, _draft: { $ne: true }, _partial: { $ne: true } })
     .only(['_path', 'title', 'date'])
     .sort({ date: -1 })
     .find()

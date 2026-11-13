@@ -1,11 +1,42 @@
 <script setup lang="ts">
 import { withoutTrailingSlash } from 'ufo'
+import { siteConfig } from '@/site.config'
+import { articleAuthor, articlePath, articleUrl, pageUrl, websiteSchema } from '@/utils/seo'
 
 const props = defineProps(['article'])
 
-useHead(() => ({
+usePageSeo(() => ({
   title: props.article.title,
-  htmlAttrs: { lang: props.article.lang || 'zh-Hans' },
+  description: props.article.description,
+  path: articlePath(props.article._path),
+  lang: props.article.lang || 'zh-Hans',
+  type: 'article',
+  author: articleAuthor(props.article).name,
+  published: props.article.date,
+  modified: props.article.updated,
+  alternates: props.article.alternates,
+  schema: [{
+    '@type': 'BlogPosting',
+    '@id': `${articleUrl(props.article._path)}#article`,
+    url: articleUrl(props.article._path),
+    mainEntityOfPage: articleUrl(props.article._path),
+    headline: props.article.title,
+    description: props.article.description,
+    inLanguage: props.article.lang || 'zh-Hans',
+    datePublished: props.article.date,
+    ...(props.article.updated ? { dateModified: props.article.updated } : {}),
+    author: articleAuthor(props.article),
+    publisher: { '@id': `${siteConfig.url}#person` },
+    isPartOf: { '@id': websiteSchema['@id'] },
+    keywords: props.article.tags,
+  }, {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteConfig.url },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: pageUrl('/blog/') },
+      { '@type': 'ListItem', position: 3, name: props.article.title, item: articleUrl(props.article._path) },
+    ],
+  }],
 }))
 
 function recoverArticle() {
@@ -21,17 +52,19 @@ function reloadArticle() {
 </script>
 
 <template>
-  <DocTitle :article="props.article" />
-  <NuxtErrorBoundary @error="recoverArticle">
-    <ContentRenderer :value="props.article" />
-    <template #error>
-      <p role="alert">
-        Couldn't load the article.
-        <button type="button" class="underline" @click="reloadArticle">
-          Reload page
-        </button>
-      </p>
-    </template>
-  </NuxtErrorBoundary>
-  <doc-footer />
+  <article>
+    <DocTitle :article="props.article" />
+    <NuxtErrorBoundary @error="recoverArticle">
+      <ContentRenderer :value="props.article" />
+      <template #error>
+        <p role="alert">
+          Couldn't load the article.
+          <button type="button" class="underline" @click="reloadArticle">
+            Reload page
+          </button>
+        </p>
+      </template>
+    </NuxtErrorBoundary>
+    <doc-footer />
+  </article>
 </template>

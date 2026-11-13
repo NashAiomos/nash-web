@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { siteConfig } from './site.config'
 import { themeInitScript } from './utils/theme'
+import { siteUrl } from './utils/seo'
 
 export default defineNuxtConfig({
   // 启用 SSR，这对静态生成很重要
@@ -12,8 +13,16 @@ export default defineNuxtConfig({
     // 确保所有路由都被预渲染
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/p/', '/article-index.json', '/rss.xml']
-    }
+      failOnError: true,
+      routes: ['/', '/blog/', '/projects/', '/tags/', '/p/', '/article-index.json', '/rss.xml', '/sitemap.xml', '/robots.txt', '/llms.txt', '/content.json']
+    },
+    hooks: {
+      'prerender:generate'(route) {
+        // Nuxt emits these static SPA fallbacks without running page-level head logic.
+        if (['/404.html', '/200.html'].includes(route.route) && route.contents)
+          route.contents = route.contents.replace('</head>', '<meta name="robots" content="noindex, follow"></head>')
+      },
+    },
   },
 
   modules: [
@@ -38,13 +47,9 @@ export default defineNuxtConfig({
         { name: 'description', content: siteConfig.description },
         { name: 'author', content: siteConfig.author },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
-        { name: 'revisit-after', content: '7 days' },
         { name: 'msapplication-TileColor', content: '#ffffff' },
         { charset: 'UTF-8' },
         { 'http-equiv': 'X-UA-Compatible', 'content': 'IE=edge' },
-      ],
-      noscript: [
-        { children: 'JavaScript is required' },
       ],
       htmlAttrs: {
         lang: siteConfig.lang,
@@ -62,11 +67,15 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', href: '/nash-web/favicon.ico' },
         { rel: 'alternate', type: 'application/rss+xml', title: siteConfig.title, href: '/nash-web/rss.xml' },
+        { rel: 'sitemap', type: 'application/xml', href: siteUrl('sitemap.xml') },
+        { rel: 'help', type: 'text/plain', title: 'AI and agent content guide', href: siteUrl('llms.txt') },
       ]
     },
   },
 
   content: {
+    // All page metadata is managed by usePageSeo, including client navigation.
+    contentHead: false,
     highlight: {
       theme: {
         // Default theme (same as single string)

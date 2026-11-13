@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: Master & Sub agent
+description: 从使用 Claude Code 的经历出发，构想一个管家 Master Agent：理解产品目标、拆分任务、协调子 Agent，并检查结果和推动迭代。
 date: 2026-01-31
 categories:
   - Computer technology

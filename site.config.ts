@@ -2,29 +2,32 @@ export const siteConfig = {
   author: 'Nash Aiomos',
   title: 'Nash Aiomos',
   url: 'https://nashaiomos.github.io/nash-web/',
-  description: 'My site.',
+  description: 'Nash Aiomos (中子星) — software engineer and writer exploring AI agents, Internet Computer, Web3, and life. Creator of Constellation Book and IceCube.',
   lang: 'en',
+  alternateNames: ['Nash', '中子星', 'NeutronStar'],
+  socialImage: 'images/social-card.png',
+  socialImageAlt: 'Nash Aiomos — Software engineer & writer. AI agents · Internet Computer · Web3.',
 }
 
 export const navLinks = [
   {
     title: 'Blog',
-    path: '/blog',
+    path: '/blog/',
     icon: 'i-icon-park-outline-align-text-right-one',
   },
   {
     title: 'Projects',
-    path: '/projects',
+    path: '/projects/',
     icon: 'i-icon-park-outline-blocks-and-arrows',
   },
   {
     title: 'Tags',
-    path: '/tags',
+    path: '/tags/',
     icon: 'i-icon-park-outline-tag-one',
   },
   {
     title: 'Search',
-    path: '/search',
+    path: '/search/',
     icon: 'i-icon-park-outline-search',
   },
   {

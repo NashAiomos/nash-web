@@ -1,6 +1,10 @@
 ---
 lang: zh-Hans
 title: 造梦家的冒险之旅
+description: 多米尼克·威廉姆斯的创业故事：从伦敦的游戏开发、Fight My Monster，到 DFINITY 与 Internet Computer 的去中心化互联网梦想。
+alternates:
+  en: /p/blog/journey-of-the-dream-weaver/
+  zh-Hans: /p/blog/journey-of-the-dream-weaver-zh/
 date: 2023-01-25
 categories:
  - Ponder on the world

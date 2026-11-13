@@ -1,6 +1,7 @@
 ---
 lang: zh-Hans
 title: 关于记笔记
+description: 学编程该怎样记笔记？Nash 分享从过度整理资料转向以做代学的经历，讨论实践、计算机基础与技术学习中的取舍。
 date: 2022-10-17
 categories:
  - Computer technology
