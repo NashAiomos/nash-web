@@ -7,6 +7,27 @@ export default defineNuxtConfig({
   // 启用 SSR，这对静态生成很重要
   ssr: true,
 
+  experimental: {
+    // Keep hydration data with its HTML: a failed secondary fetch must not
+    // replace an already rendered public page with the Nuxt error screen.
+    payloadExtraction: false,
+  },
+
+  hooks: {
+    'vite:extendConfig'(config, { isClient }) {
+      if (!isClient || !config.build) return
+      // This small static site favours one complete client bundle over a chain
+      // of route/component downloads. Search Console observed a failed route
+      // import during startup, which changed the home page to a noindex error.
+      config.build.cssCodeSplit = false
+      config.build.rollupOptions ||= {}
+      config.build.rollupOptions.output = {
+        ...config.build.rollupOptions.output,
+        inlineDynamicImports: true,
+      }
+    },
+  },
+
   // 配置 Nitro 引擎为静态生成
   nitro: {
     preset: 'github-pages',

@@ -67,9 +67,17 @@ for (const url of urls) {
   assert.ok((await stat(join(output, localFile(oneMeta('og:image', 'property'))))).size > 0)
   assert.ok(tags(html, 'html')[0].lang, `${url}: missing document language`)
   assert.ok(/<h1\b/.test(html), `${url}: no prerendered heading`)
+  const hydration = tags(html, 'script').find(tag => tag.id === '__NUXT_DATA__')
+  assert.ok(hydration && hydration['data-ssr'] === 'true', `${url}: missing SSR hydration data`)
+  assert.ok(!hydration['data-src'], `${url}: initial render depends on a separate payload download`)
   assert.ok(schemas(html).some(node => node['@type'] === 'Person'), `${url}: missing author identity`)
   pages.set(url, { html, links, meta, description })
 }
+
+// A failed route/component import previously replaced the rendered homepage
+// with the noindex error page in Google's renderer. Keep startup self-contained.
+const clientScripts = (await readdir(join(output, 'assets'))).filter(file => file.endsWith('.js'))
+assert.equal(clientScripts.length, 1, 'Client startup must not depend on secondary JavaScript chunks')
 
 assert.equal(content.articles.length, index.length, 'Index and agent content disagree')
 for (const article of content.articles) {

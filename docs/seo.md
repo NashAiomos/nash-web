@@ -19,6 +19,20 @@
 
 ## 发布后需要的外部操作
 
+### 2026-11-13 Google 渲染错误修复
+
+Search Console 实际测试的 HTML 出现 `Unable to Load Page` 和 `noindex`。
+控制台记录了首页初始化时 `Failed to fetch dynamically imported module`，并有 `_payload.json` 下载失败。
+检查时这些线上文件返回 200，因此只能确认资源加载失败触发错误页，不能确定是缓存还是临时网络问题。
+
+- 客户端脚本合并为一个文件，避免初始化途中再下载页面/组件分块；CSS 同步合并。
+- 关闭独立 payload 提取，将初始数据放在同一份预渲染 HTML 中。所有访问者使用相同产物。
+- 代价是首次访问加载整站客户端代码，HTML 包含该页数据；当前脚本约 142 KB gzip。站点规模扩大后需重新评估。
+- SEO 检查增加初始数据内联和单脚本断言。本地验证首页、博客、文章导航、文章直接刷新与站内搜索正常，无控制台错误。
+- 发布后仍需在 Google 对首页重新执行“测试实际网址”；代码和本地验证通过不等于 Google 已收录。
+
+### 验证与提交
+
 1. 在 [Google Search Console](https://search.google.com/search-console) 添加 **URL 前缀资源** `https://nashaiomos.github.io/nash-web/`。使用该账号提供的 HTML 验证文件（放入 `public/`，重新发布），或真实的验证 meta 标签；不能凭空生成验证代码。
 2. 验证通过后，提交 `https://nashaiomos.github.io/nash-web/sitemap.xml`。用 URL 检查检查首页和几篇重点文章，确认 Google 看到完整正文与正确 canonical，再申请编入索引。
 3. 在 [Bing Webmaster Tools](https://www.bing.com/webmasters/) 添加同一网站并提交 sitemap；可以按其界面从 Search Console 导入已验证的网站。
