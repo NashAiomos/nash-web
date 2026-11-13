@@ -1,0 +1,6 @@
+# Crawlers only use this file when served at the origin root /robots.txt.
+# On GitHub project Pages, copy it to the user-site repository (see docs/seo.md).
+User-agent: *
+Allow: /
+
+Sitemap: https://nashaiomos.github.io/nash-web/sitemap.xml
