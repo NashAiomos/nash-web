@@ -3,7 +3,7 @@ import { projectList } from '@/site.config'
 
 usePageSeo({
   title: 'Projects — IceCube & Constellation Book',
-  description: 'Explore Nash Aiomos’s projects: IceCube, a social app on the Internet Computer, and Constellation Book, an illustrated guide to ICP architecture and dApp development.',
+  description: 'Explore Nash Aiomos’s Web3 projects: IceCube, a decentralized social app, and Constellation Book, an illustrated guide to blockchain and decentralized application development.',
   path: '/projects/',
 })
 </script>

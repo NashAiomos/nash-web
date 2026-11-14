@@ -27,7 +27,7 @@ export const personSchema = {
   name: siteConfig.author,
   alternateName: siteConfig.alternateNames,
   url: siteConfig.url,
-  description: 'Software engineer, writer, and author of Constellation Book, an illustrated guide to Internet Computer architecture and dApp development.',
+  description: 'Software engineer and writer exploring Web3, blockchain, the metaverse, and AI.',
   sameAs: socialLinks.map(link => link.path),
 }
 

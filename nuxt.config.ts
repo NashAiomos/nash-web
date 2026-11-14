@@ -19,7 +19,6 @@ export default defineNuxtConfig({
       // This small static site favours one complete client bundle over a chain
       // of route/component downloads. Search Console observed a failed route
       // import during startup, which changed the home page to a noindex error.
-      config.build.cssCodeSplit = false
       config.build.rollupOptions ||= {}
       config.build.rollupOptions.output = {
         ...config.build.rollupOptions.output,

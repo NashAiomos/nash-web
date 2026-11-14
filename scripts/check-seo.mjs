@@ -40,6 +40,11 @@ const descriptions = new Set()
 for (const url of urls) {
   const html = await read(localFile(url))
   const links = tags(html, 'link')
+  const stylesheets = links.filter(link => link.rel === 'stylesheet')
+  assert.ok(stylesheets.length, `${url}: no stylesheet linked in HTML`)
+  for (const stylesheet of stylesheets) {
+    assert.ok((await stat(join(output, localFile(new URL(stylesheet.href, url).href)))).size > 0, `${url}: missing stylesheet`)
+  }
   const meta = tags(html, 'meta')
   const oneMeta = (name, attr = 'name') => {
     const matches = meta.filter(tag => tag[attr] === name)
@@ -122,7 +127,7 @@ assert.deepEqual(new Set(feedLinks), new Set(index.map(article => article.url)),
 const llms = await read('llms.txt')
 for (const article of index) assert.ok(llms.includes(article.url), `Agent guide is missing ${article.title}`)
 assert.ok((await read('robots.txt')).includes(`Sitemap: ${new URL('sitemap.xml', base).href}`))
-const image = await readFile(join(output, 'images/social-card.png'))
+const image = await readFile(join(output, 'images/social-card-web3-ai.png'))
 assert.equal(image.readUInt32BE(16), 1200)
 assert.equal(image.readUInt32BE(20), 630)
 console.log(`SEO checks passed: ${urls.length} canonical pages, ${index.length} complete articles, language links, JSON-LD, RSS, agent data, and social image.`)

@@ -2,11 +2,11 @@ export const siteConfig = {
   author: 'Nash Aiomos',
   title: 'Nash Aiomos',
   url: 'https://nashaiomos.github.io/nash-web/',
-  description: 'Nash Aiomos (中子星) — software engineer and writer exploring AI agents, Internet Computer, Web3, and life. Creator of Constellation Book and IceCube.',
+  description: 'Nash Aiomos — software engineer and writer exploring Web3, blockchain, the metaverse, and AI. Projects, ideas, and stories about technology and life.',
   lang: 'en',
   alternateNames: ['Nash', '中子星', 'NeutronStar'],
-  socialImage: 'images/social-card.png',
-  socialImageAlt: 'Nash Aiomos — Software engineer & writer. AI agents · Internet Computer · Web3.',
+  socialImage: 'images/social-card-web3-ai.png',
+  socialImageAlt: 'Nash Aiomos — Software engineer & writer. Web3 · Blockchain · Metaverse · AI.',
 }
 
 export const navLinks = [
@@ -54,7 +54,7 @@ export const socialLinks = [
 export const projectList = [
   {
     name: 'IceCube',
-    desc: 'A social app built entirely on the Internet Computer, where users can trade shares tied to individual posts. I designed the app’s architecture, features, and interface.',
+    desc: 'A decentralized social app where users can trade shares tied to individual posts. I designed the app’s architecture, features, and interface.',
     links: [
       { label: 'View demo', href: 'https://mjlwf-iqaaa-aaaan-qmtna-cai.icp0.io/' },
       { label: 'Source code', href: 'https://github.com/NeutronStarDAO/icecube' },
@@ -62,7 +62,7 @@ export const projectList = [
   },
   {
     name: 'Constellation Book',
-    desc: 'An illustrated guide I wrote to explain how the Internet Computer works and how to build decentralized apps on it. Available in English and Chinese.',
+    desc: 'An illustrated technical guide I wrote about blockchain architecture and decentralized application development. Available in English and Chinese.',
     links: [
       { label: 'Read in English', href: 'https://neutronstardao.github.io/constellation.github.io/' },
       { label: '阅读中文版', href: 'https://neutronstardao.github.io/constellationzh.github.io/', lang: 'zh-Hans' },
