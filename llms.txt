@@ -23,7 +23,7 @@ HTML pages contain the full article without requiring JavaScript. Cite each arti
 
 ## Articles
 
-- [谁来付 AI 数据中心的房租？](https://nashaiomos.github.io/nash-web/p/blog/who-pays-for-the-ai-buildout/): OpenAI 租机房，英伟达卖芯片。可万一租客交不起房租，为什么卖芯片的也可能要掏钱？ (zh-Hans; 2026-11-19; Nash Aiomos)
+- [谁来付 AI 数据中心的房租？](https://nashaiomos.github.io/nash-web/p/blog/who-pays-for-the-ai-buildout/): 从 OpenAI 的一份机房租约聊起。如果用户付的钱赶不上盖机房的速度，谁会先亏钱？AI 股票大跌，又怎么可能波及整个美股？ (zh-Hans; 2026-11-19; Nash Aiomos)
 - [黄仁勋走了，英伟达怎么办](https://nashaiomos.github.io/nash-web/p/blog/jensen-huang-nvidia-trust-repricing/): 黄仁勋离任后，英伟达失去了什么？聊聊信任、AI 生意，以及这次下跌究竟算不算机会。 (zh-Hans; 2026-11-13; Nash Aiomos)
 - [我是从什么时候开始不写代码的](https://nashaiomos.github.io/nash-web/p/blog/when-ai-started-writing-my-code/): 从 Cursor 到 Claude Code，Nash 回顾让 AI 写代码的过程，记录软件开发中自己的角色与工作方式如何变化。 (zh-Hans; 2026-07-05; Nash Aiomos)
 - [Master & Sub agent](https://nashaiomos.github.io/nash-web/p/blog/ai-agent-butler/): 从使用 Claude Code 的经历出发，构想一个管家 Master Agent：理解产品目标、拆分任务、协调子 Agent，并检查结果和推动迭代。 (zh-Hans; 2026-01-31; Nash Aiomos)
